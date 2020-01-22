@@ -1,0 +1,18 @@
+h1 {
+    color: red;
+    font-weight: 900;
+}
+
+p {
+    background-color: lightblue;
+    color: darkgreen;
+    margin-left: 50px;
+}
+
+body {
+    background-color: lightcyan;
+}
+
+div {
+    background-color: red;
+}
