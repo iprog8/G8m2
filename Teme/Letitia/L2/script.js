@@ -1,0 +1,1 @@
+alert('Letitia se descurca');
