@@ -1,0 +1,16 @@
+body {
+    background-image: url('beer.jpg');
+    background-repeat: no-repeat;
+  }
+h1 {
+    color: lightcoral;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+p {
+    text-decoration: underline brown;
+}
+div {
+    text-transform: uppercase;
+}
