@@ -1,0 +1,17 @@
+<style>
+h1 {
+    color:red;
+    font-weight: 900;
+    margin-left:50px;
+}
+p{
+    background-color: salmon;
+    color:slateblue;
+}
+body{
+    background-color: turquoise;
+}
+div{
+    background-color: violet;
+}
+</style>
