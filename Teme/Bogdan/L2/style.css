@@ -1,0 +1,14 @@
+body {
+  color: rgb(200, 214, 166);
+}
+p{
+    background-color: rgb(0, 0, 0);
+}
+h1{
+  color: rgba(218, 240, 18, 0.884);
+font-weight: bold;
+}
+h2{
+  color: rgb(222, 239, 240);
+font-weight: bold;
+}
