@@ -4,48 +4,97 @@
     </head>
     <body>
         <a href="cuprins.html">Inapoi la CUPRINS</a>
-        <h1>3. Sample Class Concept</h1>
-        <hr/>
 
-        <a href="#sc1">3.1 Raw Material for a DITA Chapter</a>
         
-        <h2 id="sc1">3.1 Raw Material for a DITA Chapter</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium pariatur quisquam illo molestias blanditiis omnis iste minima, eligendi facilis eum fugit rerum vel, doloremque deserunt molestiae. Vero autem dignissimos magnam!</p>
+        <h1 id="dita3" style="text-align: center; font-family: 'Times New Roman'; color: chocolate;">2. Basic Principle for DITA: Topic-Oriented Structuring</h1>
+        <a href="#sc1">3.1 Raw Material for a DITA Chapter</a><br>
+        <a href="#sc2">3.2 Developing a Class Concept</a><br>
+        <a href="#sc3">3.3 DITA Parent Elements</a><br>
+        <a href="#sc4">3.4 DITA Children Elements</a>
+
+        <h2 id="sc1"><a href="#sc1">3.1 Raw Material for a DITA Chapter</a></h2>
+        
+        <p>Content in DITA is authored in topics, rather than in larger documents or publications. A DITA topic must make sense in its own right. A topic is authored as a unit, not as part of a larger document.
         <br/><br><br><br><br><br><br><br><br><br><br><br><br><br> <br><br><br><br><br><br>
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> <br><br><br><br><br>
         <hr/> 
 
-        <a href="#sc2">3.2 Developing a Class Concept</a>
-        
-        <h2 id="sc2">3.2 Developing a Class Concept</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium pariatur quisquam illo molestias blanditiis omnis iste minima, eligendi facilis eum fugit rerum vel, doloremque deserunt molestiae. Vero autem dignissimos magnam!</p>
+
+        <h2 id="sc2"><a href="#sc2">3.2 Developing a Class Concept</a></h2>
+        <h4>Concept</h4>
+
+        The concept topic is one of the three base DITA information types.
+
+        Concept topics are used to document conceptual or overview information. They contain background information that users must know before they can successfully work with a product or within a process. Concepts can be broken into sections, but they are primarily comprised of simple paragraphs and unordered lists.
+
+        Concept topics answer the question "what is?".
+
+        The root element of a concept topic is concept.
+
+        <p>DITA has a topic-based architecture, requiring a topic-based approach to document authoring. The term topic can be thought of as being short for topical information unit, or a topical unit of discourse.
         <br/><br><br><br><br><br><br><br><br><br><br><br><br><br> <br><br><br><br><br><br>
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> <br><br><br><br><br>
         <hr/>
-
-        <a href="#sc3">3.3 DITA Blocks</a>
         
-        <h2 id="sc3">3.3 DITA Blocks</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium pariatur quisquam illo molestias blanditiis omnis iste minima, eligendi facilis eum fugit rerum vel, doloremque deserunt molestiae. Vero autem dignissimos magnam!</p>
+        <br>
+
+        <img src="packages-technicalContent.png" alt="Technical Content"><br>
+
+        <p</p>
         <br/><br><br><br><br><br><br><br><br><br><br><br><br><br> <br><br><br><br><br><br>
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> <br><br><br><br><br>
         <hr>
         
-        <a href="#sc3">3.3 DITA Parent Elements</a>
+        <a href="#sc4"><h2 id="sc4"></a>
         
-        <h2 id="sc3">3.3 DITA Parent Elements</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium pariatur quisquam illo molestias blanditiis omnis iste minima, eligendi facilis eum fugit rerum vel, doloremque deserunt molestiae. Vero autem dignissimos magnam!</p>
+        <h2 id="sc4"><a href="#sc4">3.3 DITA Parent Elements</a></h2>
+        
+        <h3>Hierarchical linking relationships</h3>
+        <p>
+        The hierarchical relationship of topic references in the ditamap can be used to generate links from parent topics to child topics, from child topics to parent topics, and between child topics.
+
+        The hierarchy of topic references in the ditamap controls not only the sequence of topics in the output and/or the TOC, but also influences automatically-generated navigation links and generated summary content in parent topics in some output formats.
+            
+        DITA permits you to adjust the basis on which the automatic navigation links are generated through the collection-type attribute of the topicref element.
+            
+        Which collection type to use is dependent on the nature of the content. However, if in doubt, leave the default, which provides links to any child topics, and a link back from child to parent. This ensures that all topics in a hypertext output such as HTML can be traversed using links alone.</p>
+        
         <br/><br><br><br><br><br><br><br><br><br><br><br><br><br> <br><br><br><br><br><br>
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> <br><br><br><br><br>
         <hr/>
-
-        <a href="#sc4">3.4 DITA Children Elements</a>
         
-        <h2 id="sc4">3.4 DITA Children Elements</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium pariatur quisquam illo molestias blanditiis omnis iste minima, eligendi facilis eum fugit rerum vel, doloremque deserunt molestiae. Vero autem dignissimos magnam!</p>
+        <h2 id="sc5"><a href="#sc5">3.4 DITA Children Elements</a></h2>
+        
+        <p>Collection types
+        The collection-type attribute of the topicref element defines the relationship between any nested topic references within a ditamap. Changing the collection type affects the way in which automatic links and topic previews are generated when the ditamap is processed to an output format.
+            
+        The way links are generated during output processing is dependent upon the collection-type attribute of parent topicref elements in the hierarchy section of the ditamap, or the containing relcell section in the reltable section of the ditamap. (A parent topicref is one containing nested topicref elements, or child nodes.) The collection-type therefore defines the type of hierarchical relationship between members of the same branch of a ditamap tree, or in the same cell in the relationship table relcell element.
+            
+        There are five collection types in DITA:<br>
+        <br>
+        <b>unordered</b><br>
+        <br>
+        A collection of topics where links are generated from parent to children, and from children to parent.<br>
+        <br>
+        <b>family</b><br>
+        <br>
+        A collection of topics where links are generated from parent to children, from children to parent, and from sibling to sibling.<br>
+        
+        <br>
+        <b>sequence</b><br>
+        <br>
+        A collection of topics where links are generated from parent to children, from children to parent, and from child to previous sibling (if applicable) and next sibling (if applicable).<br>
+        <br>
+        <b>choice</b><br>
+        <br>
+        Not commonly used, but is intended for situations where the reader needs to select one child topic to proceed. This might be useful when the output document is an interactive decision-support application. Most processors treat choice in the same way as unordered.<br>
+        <br>
+        <b>tree</b><br>
+        <br>
+        Tree is not supported.</p></p>
         <br/><br><br><br><br><br><br><br><br><br><br><br><br><br> <br><br><br><br><br><br>
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> <br><br><br><br><br>
         <hr/>
-
+        <a href="#dita3" style="font-size: 20px;">^SUS</a>
     </body>
 </html>
