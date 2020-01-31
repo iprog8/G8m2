@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Formurile in html</title>
+        <script src="js/app.js" ></script>
+    </head>
+    <body>
+        
+        <form action="comanda" method="post">
+            <fieldset>
+                <legend>Subscrie la newsletter</legend>
+                Nume
+                <input type="text" name="nume" placeholder="Introduceti un nume" /><br/>
+                Prenume
+                <input type="text" name="prenume" placeholder="Introduceti un renume" /><br/>
+            </fieldset>
+            
+            <fieldset>
+                Email
+                <input type="email" name="email" placeholder="Introduceti un email valid"><br/>
+                Varsta
+                <input type="number" name="age" placeholder="Introduceti o valoare numerica" /><br/>
+                Telefon
+                <input type="tel" name="telefon" /><br/>
+                Parola
+                <input type="password" /><br/>
+                Nivelul de studii
+                <input type="radio" name="studii" value="SM" /> Studii Medii  
+                <input type="radio" name="studii" value="SS" /> Studii superioare  
+                <input type="radio" name="studii" value="SPU" /> Studii post universitare <br/>
+                Aveti peste 18 ani? 
+                <input type="checkbox" name="major" value="Da" /> <br/>
+                Kilograme
+                <input type="number" name='greutate' value='50' step="5" min="30" max="80" /> <br/>
+                Data nasterii
+                <input type="date" name='dn' value='2020-01-01' /><br/>
+                Culoarea favorita
+                <input type="color" name='favcolor' /> <br/>
+                Varsta
+                <input type="range" min="18" max="65" value="0" /><br/>
+                <input type="month" name="luna" /><br/>
+                <input type="week" name="week" /><br/>
+                <input type="time" name="time" /><br/>
+            </fieldset>
+            <input type="submit" value="Trimite Datele catre server" />
+        </form>
+        <hr/>
+        <input type="button" value="Apeeaza JavaSCRIPT" onclick="Hello()" />
+    </body>
+</html>
