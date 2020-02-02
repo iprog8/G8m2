@@ -1,0 +1,8 @@
+input, select{
+    border-radius: 10px;
+    border-color: red;
+    width: 50%;
+}
+input[type=radio]{width: fit-content;}
+input[type=checkbox]{width: fit-content;}
+input[type=button]{border-radius: 0px;}

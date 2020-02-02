@@ -1,0 +1,17 @@
+html { 
+    background: url(c.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .resetpassword {
+    background-color:skyblue;
+    color:rgb(45, 27, 59);
+    padding: no padding;
+    margin: 0px 5;
+    border: none;
+    cursor: pointer;
+    width: 12%;
+    opacity: 0.9;
+}
