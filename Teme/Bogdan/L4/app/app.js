@@ -4,3 +4,4 @@ $(document).ready(function() {
             $("#cities").append('<option value="' + data[i].name + '">' + data[i].name + '</option');
         }
     });
+});
