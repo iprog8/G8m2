@@ -1,0 +1,27 @@
+img {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+html { 
+    background: url(b.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+.login {
+    background-color:rgb(60, 163, 204);
+    color: white;
+    padding: 3px 86px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 8%;
+    opacity: 0.9;
+    
+}
+  
