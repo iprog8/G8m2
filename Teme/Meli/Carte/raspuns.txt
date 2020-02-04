@@ -1,0 +1,3 @@
+1. Mi-ar fi placut ca cele 3 formulare sa fie in 3 fisiere html separate.
+2. Mi-ar fi placut mai multa atentie la detalii: "Submit query" nu imi zice nimic.
+3. Tema partial completa (lipsesc chestii la inregistrare)
