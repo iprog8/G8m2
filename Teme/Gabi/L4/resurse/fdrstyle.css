@@ -1,0 +1,7 @@
+body {
+    background-color: azure;
+}
+::placeholder {
+    text-align: center;
+
+}
