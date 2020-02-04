@@ -1,0 +1,12 @@
+fieldset {
+    text-align: center;
+    color-adjust: rgb(29, 101, 236);
+}
+h1 {
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Courier New', Courier, monospace;
+}
+body {
+    background-color: rgb(189, 204, 255);
+}
