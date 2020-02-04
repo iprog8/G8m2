@@ -1,5 +1,5 @@
 body {
-    background-image: url('/Images/whiskey-and-cigars-1.jpeg');
+    background-image: url('../Images/whiskey-and-cigars-1.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
 }
