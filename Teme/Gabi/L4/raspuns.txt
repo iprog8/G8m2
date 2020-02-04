@@ -1,0 +1,5 @@
+type="nationality"
+type="passport"
+type="first time buyer"
+
+aceste tipuri nu exista, nu stiu de unde le-ai scos :D
