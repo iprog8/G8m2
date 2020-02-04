@@ -9,3 +9,16 @@ li a {
     text-align: center;
     padding: 20px 20px;
 }
+table,th {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: left;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+tr, td {
+    padding: 20px;
+    border: 2px solid #333;
+    border-collapse: collapse;
+    text-align: left;
+}
