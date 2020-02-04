@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <title>Formurile in html</title>
+        <script src="js/app.js" ></script>
+    </head>
+    <body>
+        
+        <form method="post">
+            <fieldset>
+                <legend>Subscrie la newsletter</legend>
+                Nume
+                <input type="text" name="nume" placeholder="Introduceti un nume" /><br/>
+                Prenume
+                <input type="text" name="prenume" placeholder="Introduceti un renume" /><br/>
+            </fieldset>
+            
+            <fieldset>
+                Email
+                <input type="email" name="email" placeholder="Introduceti un email valid"><br/>
+                Varsta
+                <input type="number" name="age" placeholder="Introduceti o valoare numerica" /><br/>
+                Telefon
+                <input type="tel" name="telefon" placeholder="072xx xxx xxx" /><br/>
+                Parola
+                <input type="password" /><br/>
+                Nivelul de studii
+                <input type="radio" name="studii" value="SM" /> Studii Medii  
+                <input type="radio" name="studii" value="SS" /> Studii superioare  
+                <input type="radio" name="studii" value="SPU" /> Studii post universitare <br/>
+                Aveti peste 18 ani? 
+                <input type="checkbox" name="major" value="Da" /> <br/>
+                Kilograme
+                <input type="number" name='greutate' value='50' step="5" min="30" max="80" /> <br/>
+                Data nasterii
+                <input type="date" name='dn' value='2020-01-01' /><br/>
+                Culoarea favorita
+                <input type="color" name='favcolor' /> <br/>
+                Varsta
+                <input type="range" min="18" max="65" value="0" /><br/>
+                <input type="month" name="luna" /><br/>
+                <input type="week" name="week" /><br/>
+                <input type="time" name="time" /><br/>
+            </fieldset>
+
+            <fieldset>
+                Time<input type="time" name="oraCurenta" /><br>
+                Date time <input type="datetime" name='datanasterii' /> <br/>
+                Email <input type="email" name='mail' /> <br/>
+                Search <input type="search" name='cauta' /><br/>
+                Tel <input type="tel" name="call" /> <br />
+                Url <input type="url" name='link' /> <br/>
+                text area <textarea name="descriere">
+                
+                </textarea><br />
+                Select 
+                <select>
+                    <optgroup label="Europe" title="Europe">
+                        <option value="Ro">Romania</option>
+                        <option value="Fr">France</option>
+                        <option value="Bg">Bulgaria</option>
+                        <option value="IT">Italia</option>
+                    </optgroup>
+                    <optgroup  label="NonEU" title="NonEU">
+                        <option value="En">UK</option>
+                    </optgroup>
+                </select> <br/>
+                input list<input list="beri" />
+                <datalist id="beri">
+                    <option value="Ciuc"></option>
+                    <option value="Tuborg"></option>
+                    <option value="Timisoreana"></option>
+                    <option value="Altele"></option>
+                </datalist> <br/>
+
+            </fieldset>
+
+            <fieldset>
+                readonly<input type="text" name="aaaa" readonly value="111"/><br/>
+                disabled<input type="text" name="aaaa" disabled value="111"/><br/>
+                size<input type="text" name="aaaa"  value="111" size="5"/><br/>
+                maxlength<input type="text" name="aaaa"  value="111" maxlength="10"/><br/>
+                autocomplete on<input type="text" name="aaaa"  value="111" autocomplete="on" /><br/>
+                novalidate <input type="text" name="aaaa"  value="111" novalidate/><br/>
+                autofocus <input type="text" name="aaaa"  value="111" autofocus /><br/>
+                required <input type="text" name="aaaa"  required /><br/>
+            </fieldset>
+            <input type="submit" value="Trimite Datele catre server" />
+        </form>
+        <hr/>
+        <input type="button" value="Apeeaza JavaSCRIPT" onclick="Hello()" />
+        <a href="google.com" >Gogule</a>
+        <a href="mailto:ovidiu@invatamprogramare.ro">Invatam Programare</a>
+    </body>
+</html>

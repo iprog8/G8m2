@@ -1,0 +1,89 @@
+<html>
+    <head>
+       <title>
+           Formular de inregistrare
+       </title>
+    </head>
+
+    <body>
+        <form action="register" method="POST">
+         <fieldset>
+          <legend>Personal information</legend>  <br/>
+          Title <br/>
+          <input type="radio" name="title" value="Mr."> Mr.
+          <input type="radio" name="title" value="Mrs."> Mrs. <br/>
+          First name<br/>
+          <input type="text" name="firstname" /><br/>
+          Last name<br/>
+          <input type="text" name="firstname" /><br/>
+          Email<br/>
+          <input type="email" name="email"/> <br/>
+          Password<br/>
+          <input type="password" name="password" placeholder="five characters minimum"/><br/> 
+          Nationality<br/>
+          <select>
+              <optgroup label="Nationality">
+                  <option value="Romanian">Romanian</option>
+                  <option value="Sri Lankan">Sri Lankan</option>
+                  <option value="French">French</option>
+              </optgroup>
+          </select><br/>
+          Passport number<br/>
+          <input type="text" name="Passport" /><br/>
+          First time buyer<br/>
+          <select>
+              <optgroup label="buyer">
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+              </optgroup>
+          </select><br/>
+          Where did you hear from us<br/>
+          <select>
+              <optgroup label="Source">
+                  <option value="Friends">Friends</option>
+                  <option value="Google">Google</option>
+                  <option value="Social media">Social media</option>
+              </optgroup>
+          </select><br/>
+          Date of birth<br/>
+          <input type="date" name="birthdate"/></br>
+         </fieldset>
+         <fieldset>
+            <legend>Delivery address</legend>  <br/>
+          Address<br/>
+           <input type="text" name="address1" /><br/>
+          Address (line 2)<br/>
+           <input type="text" name="address2" /><br/>
+          Country<br/>
+          <select>
+              <optgroup label="Country">
+                  <option value="Romania">Romania</option>
+                  <option value="Sri Lanka">Sri Lanka</option>
+                  <option value="France">France</option>
+              </optgroup>
+          </select><br/>
+          City<br/>
+          <select>
+            <optgroup label="City">
+                <option value="-">-</option>
+                <option value="Bucharest">Bucharest</option>
+                <option value="Banesti">Banesti</option>
+                <option value="Ditrau">Ditrau</option>
+                <option value="Paris">Paris</option>
+            </optgroup>
+          </select><br/>
+          Zip postal <br/>
+           <input type="number" name="zipcode"><br/>
+          Mobile Phone <br/>
+          <input type="tel" name="phone"><br/>
+         </fieldset>
+        
+         <input type="checkbox" name="newsletter" value=" Sign up for our newsletter"/> Sign up for our newsletter <br/>
+         <input type="checkbox" name="offers" value=" Receive special offers from our partner"/> Receive special offers from our partner<br/>
+
+          <input type="submit" value="Register"/> <br/>
+          
+        </form>
+
+    </body>
+</html>

@@ -1,0 +1,5 @@
+1. la input type=radio toate butoanele radio trebuie sa aiba acelasi nume
+2. type="Nationality" nu exista si ii lipseste name-ul
+3. toate tag-urile input trebuie sa contina name, altfel nu pleaca informatia spre server
+4. text-ul din name nu accepta spatii
+5. 
