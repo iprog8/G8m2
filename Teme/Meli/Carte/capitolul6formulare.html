@@ -5,25 +5,81 @@
         </title>
         <style>
             body {
-                   background-color: paleturquoise
+                   background-color: palegoldenrod;
                    background-position-x: center;
             }
             div {
-                   text-align: center;
-                   font-family: sans-serif;
-                   font-weight: 200;
-                   font-stretch: expanded;
-                   font-weight: bold;
-                   color: black;
-                   align-items: center;
+                text-align: center;
+                font-family: sans-serif;
+                font-weight: 200;
+                font-stretch: expanded;
+                font-weight: bold;
+                color:black;
+                align-items: center;
+            }
+        
+            span {
+                text-align: left;
+                font-family: sans-serif;
+                font-weight: 200;
+                font-stretch: expanded;
+                font-weight: bold;
+                color: black;
+                align-items: left;   
+            }
         </style>
     </head>
     <body>
         <div>
-             <img src="ResurseMN\kissclipartlogin.png" alt="Login" width="500" height="300">
-            </div>
-        <div>
+             <img src="ResurseMN\kissclipartlogin.png" alt="Login" width="400" height="200"> <br/>
             autentificare
+        <form action="login" method="post">
+            <fieldset>
+                <input type="text" name="username" placeholder="utilizator"><br/>
+                <input type="password" name="password" placeholder="parola"><br/>
+                <input type="submit" name="Trimite catre server">
+            </fieldset>
+            <fieldset>
+                <div>
+                    <form action="Passwordreset">
+                    V-ati uitat parola? <br/>
+                    <input type="email" name="Passwordreset"placeholder="Adresa de email"><br/>
+                    Introduceti adresa de email cu care v-ati inregistrat!<br/>
+                    <input type="submit" name="Trimite catre server">
+                </form>
+                </div>
+            </fieldset>
         </div>
+       
+            <br/>
+            <br/>
+            <br/>   
+            <hr/>
+<span>
+    <h2>
+        Nu ai cont? Inregistreaza-te!
+    </h2>
+
+     <form action="inregistrare" method="POST">
+    Nume
+    <input type="text" name="Nume" placeholder="Numele tau"><br/>
+    Prenume
+    <input type="text" name="Prenume" placeholder="Prenumele tau"><br/>
+    Adresa de email
+    <input type="email" name="Adresa de email"placeholder="Adresa ta de email"><br/>
+    Varsta
+    <input type="number" name="Varsta" value="18" step="1" min="18" max="80"placeholder="Varsta"> 
+    <i> <small> <sub>(Pentru a va inregistra, trebuie sa aveti peste 18 ani. Varsta maxima este 80 ani)</sub></small></i>
+    <br/>
+    Studii
+    <br/>
+    <input type="radio" name="Studii" value="SM"/>Studii Medii <br/>
+    <input type="radio" name="Studii" value="SS"/>Studii Superioare <br/>
+    <input type="radio" name="Studii" value="SPU"/>Studii Postuniversitare <br/>
+    Doriti sa va trimitem mai multe informatii despre campaniile noastre? <br>
+    <input type="checkbox" name="campanie" value="Da"/> Da <br>
+
+</span>
+
     </body>
 </html>
