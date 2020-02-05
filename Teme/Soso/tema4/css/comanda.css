@@ -1,6 +1,6 @@
 input, select{
     border-radius: 10px;
-    border-color: red;
+    border-color:goldenrod;
     width: 50%;
 }
 input[type=radio]{width: fit-content;}
