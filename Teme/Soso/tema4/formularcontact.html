@@ -5,7 +5,8 @@
         <script src="js/script.js"></script>
     </head>
     <body>
-        <form action="comanda" method="post" style="display: inline-table; width: 500px; background-color:lightskyblue;">
+        <form action="comanda" method="post" >
+            <span style="display: inline-table; width: 500px; background-color:lightskyblue;">
             <fieldset>
 <legend><b>Your personal information</b></legend>
 <h4>Title</h4>
@@ -61,8 +62,8 @@
 <h4>Date of birth</h4>
 <input type="date" name="db">
             </fieldset>
-        </form>
-        <form action="comanda" method="post" style="display: inline-table; width: 500px;background-color: lightskyblue;">
+        </span>
+        <span style="display: inline-table; width: 500px; background-color:lightskyblue;">
             <fieldset>
                 <legend><b>Delivery adress</b></legend>
                 <h4>Adress</h4>
@@ -89,6 +90,7 @@
                 <input type="checkbox" name="offers"/>Recieve special offers from our partners!<br/><br/>
                 <input type="button" value="Register>" onclick="register()"/>
             </fieldset>  
+            </span>
         </form>
     </body>
 </html>
