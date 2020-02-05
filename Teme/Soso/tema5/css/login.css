@@ -1,0 +1,20 @@
+
+
+table{
+   border-width: 5px;
+    background-color: lightseagreen;
+   border-spacing: 10px;
+}
+tr{
+    background-color: lightblue;
+}
+input[type=submit]{
+    width: 100%;
+    background-color: lightskyblue;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: darkorchid;
+}

@@ -1,0 +1,103 @@
+<html>
+    <head>
+        <title>Formular de comanda</title>
+        <link href="css/comanda.css" type="text/css" rel="stylesheet"/>
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+        <form action="comanda" method="post">
+            <span class="ypi">
+            <fieldset>
+<legend><b>Your personal information</b></legend>
+<h4>Title</h4>
+<input type="radio" name="gen" value="mister"/>Mr.
+<input type="radio" name="gen" value="miss"/>Mrs.
+<div class="mandatory"> 
+<h4>First name*</h4>
+<input type="text" name="numefamilie" required/>
+<h4>Last name*</h4>
+<input type="text" name="prenume" required/>
+<h4>Email*</h4>
+<input type="email" name="email" required/>
+<h4>Password*</h4>
+<input type="password" name="parola" maxlength="10" required/><br/>
+</div>
+<h4>Nationality</h4>
+    <input list="nationality">
+    <datalist id="nationality">
+    <option value="danish">danish</option>
+    <option value="british">british</option>
+    <option value="estonian">estonian</option>
+    <option value="finnish">finnish</option>
+    <option value="icelandic">icelandic</option>
+    <option value="irish">irish</option>
+    <option value="latvian">latvian</option>
+    <option value="lithuanian">lithuanian</option>
+    <option value="norwegian">norwegian</option>
+    <option value="swedish">swedish</option>
+    <option value="austrian">austrian</option>
+<option value="belgian">belgian</option>
+<option value="french">french</option>
+<option value="german">german</option>
+<option value="dutch">dutch</option>
+<option value="swiss">swiss</option>
+<option value="albanian">albanian</option>
+<option value="croatian">croatian</option>
+<option value="cypriot">cypriot</option>
+<option value="greek">greek</option>
+<option value="italian">italian</option>
+<option value="spanish">spanish</option>
+<option value="portughese">portughese</option>
+<option value="serbian">serbian</option>
+<option value="slovenian">slovenian</option>
+<option value="belarusian">belarusian</option>
+<option value="bulgarian">bulgarian</option>
+<option value="romanian">romanian</option>
+<option value="czech">czech</option>
+<option value="polish">polish</option>
+<option value="hungarian">hungarian</option>
+<option value="russian">russian</option>
+<option value="slovak">slovak</option>
+<option value="ukrainian">ukrainian</option>
+</datalist>
+<h4>Id number</h4>
+<input type="number" name="id"/>
+<h4>Date of birth</h4>
+<input type="date" name="db">
+            </fieldset>
+        </span>
+        <span class="da">
+            <fieldset>
+                <legend><b>Delivery adress</b></legend>
+                <div class="mandatory">
+                <h4>Adress*</h4>
+                <input type="text" name="adress" placeholder="Street, Number" required/>
+                <h4>Country*</h4>
+                <select name="country" required>
+                    <option value="romania">Romania</option>
+                    <option value="italy">Italy</option>
+                    <option value="spain">Spain</option>
+                </select>
+                <h4>City*</h4>
+                <select name="city" required> 
+                    <option value="bucharest">Bucharest</option>
+                    <option value="rome">Rome</option>
+                    <option value="madrid">Madrid</option>
+                </select>
+                <h4>Zip/Postal code*</h4>
+                <input type="number" name="zipcode" required/>
+                <h4>
+                 Phone number*   
+                </h4>
+                <input type="tel" name="phone" required/><br/><br/>
+            </div>
+                <input type="checkbox" name="singup"/>Sign up for our newsletter!<br/>
+                <input type="checkbox" name="offers"/>Recieve special offers from our partners!<br/><br/>
+        <textarea id="why" name="reason" rows="5" cols="50">A few words why do you want to register,it will help us to know you better
+        </textarea><br/><br/>
+                <input type="button" value="Register>" onclick="register()"/>
+            </fieldset>  
+        </span>
+        </form>
+    </body>
+</html>
