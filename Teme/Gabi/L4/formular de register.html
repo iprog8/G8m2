@@ -10,38 +10,63 @@
             <input type="radio" name="titlu" value="Mr" /> Mr.
             <input type="radio" name="titlu" value="Mrs" /> Mrs.
             <h4>First name<i>*</i></h4>
-            <input type="text" name="first name" placeholder="enter your first name" /> 
+            <input class="campuri-obligatorii" type="text" name="first name" placeholder="enter your first name" /> 
             <h4>Last name<i>*</i></h4>
-            <input type="text" name="last name" placeholder="enter your last name" />
+            <input class="campuri-obligatorii" type="text" name="last name" placeholder="enter your last name" />
             <h4>Email<i>*</i></h4>
-            <input type="email" name="email" placeholder="enter a valid email" /> 
+            <input class="campuri-obligatorii" type="email" name="email" placeholder="enter a valid email" /> 
             <h4>Password<i>*</i></h4>
-            <input type="password" name="password" placeholder="********" />
+            <input class="campuri-obligatorii" type="password" name="password" placeholder="********" maxlength="8"/>
             <h4>Nationality<i>*</i></h4>
-            <input type="nationality" name="nationality" placeholder="enter your nationality" />
+            <input type="text" name="nationality" placeholder="enter your nationality" />
             <h4>Passport No<i>*</i></h4>
-            <input type="passport" name="passport" placeholder="enter your passport number" />
+            <input class="campuri-obligatorii" type="text" name="passport" placeholder="enter your passport number" />
             <h4>First Time Buyer<i>*</i></h4>
-            <input type="first time buyer" name="first time buyet" placeholder="..." />
+            <input type="text" name="first time buyer" placeholder="..." />
             <h4>Where did you hear about us?<i>*</i></h4>
             <input type="response" name="response" placeholder="enter your responde here" />
             <h4>Date of Birth<i>*</i></h4>
             <input type="date" name="dn" value="2020-01-01" />
+            <h4>Register reason<i>*</i></h4>
+            <input type="text" name="register reason" placeholder="Why you want to register" />
         </fieldset>
         <fieldset>
             <legend><h2>Delivery Address</h2></legend>
             <h4>Address<i>*</i></h4>
-            <input type="address" name="address" placeholder="enter your address here" />
+            <input class="campuri-obligatorii" type="address" name="address" placeholder="enter your address here" />
             <h4>Address(line 2)<i>*</i></h4>
             <input type="address" name="address" placeholder="continue your address here" />
             <h4>Country<i>*</i></h4>
-            <input type="country" name="country" placeholder="enter your country here" />
+            <select>
+                <optgroup label="Europe" title="Europe">
+                    <option value="Au">Austria</option>
+                    <option value="Be">Belgium</option>
+                    <option value="Bu">Bulgaria</option>
+                    <option value="Gr">Greece</option>
+                    <option value="Ge">Germany</option>
+                    <option value="Ro">Romania</option>
+                    <option value="Po">Poland</option>
+                    <option value="Sp">Spain</option>
+                    <option value="Ne">Netherlands</option>
+                </optgroup>
+            </select>
             <h4>City<i>*</i></h4>
-            <input type="city" name="city" placeholder="enter your city here" />
+            <input list="Cities" />
+            <datalist id="Cities">
+                <option value="Vienna"></option>
+                <option value="Brussels"></option>
+                <option value="Sofia"><option>
+                <option value="Athens"></option>    
+                <option value="Berlin"></option>
+                <option value="Bucharest"></option>
+                <option value="Warsaw"></option>
+                <option value="Madrid"></option>
+                <option value="Amsterdam"></option>   
+            </datalist>
             <h4>Zip/Postal Code<i>*</i></h4>
-            <input type="zip" name="zip" placeholder="enter your zip code here" />
+            <input class="campuri-obligatorii" type="zip" name="zip" placeholder="enter your zip code here" />
             <h4>Mobile number<i>*</i></h4>
-            <input type="mobile" name="mobile" placeholder="enter your phone number here" /><br/>
+            <input class="campuri-obligatorii" type="mobile" name="mobile" placeholder="enter your phone number here" /><br/>
             <input type="checkbox" name="Sign up" value="yes" />
             Sign up for our newsletter! <br/>
             <input type="checkbox" name="receive special offers" value="yes" />
