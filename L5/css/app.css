@@ -1,0 +1,10 @@
+.dataText {
+    border-color: lightgreen;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#primulText {
+    color: darkblue;
+    font-weight: 900;
+}

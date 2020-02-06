@@ -1,0 +1,134 @@
+.frumusica {
+border-color: limegreen;
+border-style: dotted;
+border-width: 2px;}
+
+.frumusica-background{
+background-color: magenta;
+}
+
+.layout {
+background-color: lightpink;
+}
+.clasa {
+/*aceasta este o clasa css*/
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#identificator {
+/*selector dupa id*/
+font-size: large;
+}
+
+p{
+
+    background-color: mediumpurple;
+}
+
+h1 {
+
+    background-color: rgb(255,0,0);
+/*Red Green Blue unitati -> creare de culoare pe baza RGB*/
+}
+
+
+h2{
+    background-color: rgba(red, green, blue, alpha)
+}
+
+h3{
+
+    background-color: rgba(200,0,200,.0.5)
+}
+
+/* creeare de culoare pe baza de hexa*
+0..0
+1..1
+...
+9..9
+10..A
+11..B
+12..C
+...
+15..F
+16..10
+17..11
+18..12
+25..19
+26..1A
+27..1B
+.....
+31...1F
+32..20
+....
+255...FF
+*/
+
+h4{
+
+background-color:#C800C866;
+
+color: mediumspringgreen}
+
+
+.button {
+
+
+}
+/* rgba selector cu transparenta? A = transparenta*/
+/*selector dupa tag nu are nimic in fata, e text  direct; 
+selectorii tag selecteaza toate tag-urile de acelasi tip* denumirile claselor si ale ID-urilor nu pot avea spatii, textul e lipit,
+putem folosi - minus*/
+/* #0000000 negru
+#ffffff alb */
+
+
+/*selectarea TUTUROR descendentilor*/
+div p {
+    background-color: cyan;
+}
+/* selectarea tuturor copiilor*/
+div > p{
+    background-color: darkgreen;
+}
+
+/* selecteaza elementul de dupa, 
+primul element tip paragraf de dupa div  */
+
+
+div + p {
+    background-color: darkred;
+}
+
+p + section {
+
+    
+}
+/*electeaza toate paragrefele de dupa un div */
+div ~ p{
+    background-color:deeppink
+}
+
+/* cum coloram un link*/
+
+a{
+    background-color: red;
+}
+/*Pseudoclasa8?
+/*selecteaza toate linkurile care au fost vizitate*/
+a:visited{
+    background-color: deepskyblue;
+}
+
+a:hover{
+    background-color: dodgerblue;
+}
+
+a:active{
+    background-color: yellow;
+}
+
+a.highlight:hover{
+    font: weight 900;
+}
