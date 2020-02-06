@@ -3,6 +3,7 @@
        <title>
            Formular de inregistrare
        </title>
+       <link href="css/mandatory.css" type="text/css" rel="stylesheet"/>
     </head>
 
     <body>
@@ -10,26 +11,26 @@
          <fieldset>
           <legend>Personal information</legend>  <br/>
           Title <br/>
-          <input type="radio" name="title" value="Mr."> Mr.
-          <input type="radio" name="title" value="Mrs."> Mrs. <br/>
-          First name<br/>
-          <input type="text" name="firstname" /><br/>
+          <input class="mandatory" type="radio" name="title" value="Mr."> Mr.
+          <input class="mandatory" type="radio" name="title" value="Mrs."> Mrs. <br/>
+          First name <br/>
+          <input class="mandatory" type="text" name="firstname" /><br/>
           Last name<br/>
           <input type="text" name="firstname" /><br/>
           Email<br/>
-          <input type="email" name="email"/> <br/>
+          <input class="mandatory" type="email" name="email"/> <br/>
           Password<br/>
-          <input type="password" name="password" placeholder="five characters minimum"/><br/> 
+          <input class="mandatory" type="password" name="password" placeholder="five characters minimum" maxlength="10"/><br/> 
           Nationality<br/>
-          <select>
-              <optgroup label="Nationality">
-                  <option value="Romanian">Romanian</option>
-                  <option value="Sri Lankan">Sri Lankan</option>
-                  <option value="French">French</option>
-              </optgroup>
-          </select><br/>
+          <input list="nationality">
+            <datalist id="nationality">
+              <option value="Romanian">Romanian</option>
+              <option value="Sri Lankan">Sri Lankan</option>
+              <option value="French">French</option>
+            </datalist> <br/>
+           
           Passport number<br/>
-          <input type="text" name="Passport" /><br/>
+          <input class="mandatory" type="text" name="Passport" /><br/>
           First time buyer<br/>
           <select>
               <optgroup label="buyer">
@@ -45,22 +46,22 @@
                   <option value="Social media">Social media</option>
               </optgroup>
           </select><br/>
+          Reason for registration <br/>
+          <textarea class="mandatory" name="registrationreason" maxlength="160"></textarea> <br/>
           Date of birth<br/>
           <input type="date" name="birthdate"/></br>
          </fieldset>
          <fieldset>
             <legend>Delivery address</legend>  <br/>
           Address<br/>
-           <input type="text" name="address1" /><br/>
+           <input class="mandatory" type="text" name="address1" /><br/>
           Address (line 2)<br/>
            <input type="text" name="address2" /><br/>
           Country<br/>
           <select>
-              <optgroup label="Country">
                   <option value="Romania">Romania</option>
                   <option value="Sri Lanka">Sri Lanka</option>
                   <option value="France">France</option>
-              </optgroup>
           </select><br/>
           City<br/>
           <select>
@@ -75,7 +76,7 @@
           Zip postal <br/>
            <input type="number" name="zipcode"><br/>
           Mobile Phone <br/>
-          <input type="tel" name="phone"><br/>
+          <input class="mandatory" type="tel" name="phone"><br/>
          </fieldset>
         
          <input type="checkbox" name="newsletter" value=" Sign up for our newsletter"/> Sign up for our newsletter <br/>
