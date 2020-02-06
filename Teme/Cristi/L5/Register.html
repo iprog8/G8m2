@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <title>
+            Register
+        </title>
+        <link href="css/campuri-obligatorii.css" type="text/css" rel="stylesheet"/>
+    </head>
+    <body>
+        <h3>YOUR PERSONAL INFORMATION</h3>
+        <hr>
+        <h4>Title</h4>
+            <input type="radio" name="Gender" value="Mr.">
+        Mr.
+            <input type="radio" name="Gender" value="Mrs.">
+        Mrs.
+         <br><br>
+        First name* <br>
+        <input id="Firstname" class="campuri-obligatorii" type="text"/><br><br>
+        Last name* <br>
+        <input id="Lastname" class="campuri-obligatorii" type="text"/><br><br>
+         E-mail* <br>
+         <input id="email" class="campuri-obligatorii" type="text"/><br><br> 
+        Password*<br>
+        <input id="password" class="campuri-obligatorii" type="password" name="password" placeholder="**********" maxlength="10"><br>
+        Five characters minimum <br><br>
+        Nationality* <br>
+            <input type="number" nume="Nationality" placeholder="-"><br><br>
+        Passport No* <br>
+            <input type="text" name="First name"  placeholder="xvcvbcbv"><br><br>
+        First Time Buyer* <br>
+            <input type="number" nume="Client" placeholder="-"><br><br>
+        Where did you heard about us?* <br>
+            <input type="number" nume="Info" placeholder="-"><br><br>
+        Date of Birth <br>
+            <input type="month" nume="anul si luna nasterii" placeholder="-">
+            <input type="number" nume="Ziua nasterii" placeholder="-">
+            <input type="number" nume="Ziua nasterii" placeholder="-">
+        <h3>DELIVERY ADDRESS</h3>
+        <hr>
+        Address* <br>
+            <input type="text" name="Address" ><br><br>
+        Address (Line 2) <br>
+             <input type="text" name="Address2" placeholder="vcxcxvx vcbxbbvcbvcbvcbvcb" ><br><br>
+        Country <br>
+             <select>
+                 <optgroup>
+                     <option value="RO">Romania</option>
+                     <option value="BG">Bulgaria</option>
+                     <option value="UK">Ucraina</option>
+                     <option value="RU">Rusia</option>
+                     <option value="SR">Serbia</option>
+                     <option value="UG">Ungaria</option>
+                     <option value="CR">Croatia</option>
+                     <option value="MD">Moldova</option>
+                     <option value="GR">Grecia</option>
+                  </optgroup>
+
+             </select><br><br>
+        City* <br>
+        <select>
+        <optgroup>
+            <option value="CR">Craiova</option>
+            <option value="TM">Timisoara</option>
+            <option value="CA">Campina</option>
+            <option value="B">Bucuresti</option>
+            <option value="CN">Cluj-Napoca</option>
+            <option value="SB">Sibiu</option>
+            <option value="BC">Bacau</option>
+            <option value="PL">Ploiesti</option>
+            <option value="CT">Constanta</option>
+         </optgroup>
+        </select><br><br><br>
+        ZIP/Postal Code* <br>
+             <input type="text" name="ZIP" placeholder="45464654"><br><br>
+        Mobil Phone* <br>
+            <input type="text" name="Phone" placeholder="4546465464"><br><br>
+            <input type="checkbox" name="Sign up" value="1"> 
+        Sign up our newsletter <br>
+            <input type="checkbox" name="Offers" value="1"> 
+        Receive special offers from our partners <br><br>
+        Register Reason <br>
+        <textarea name="Reg Res" >
+        </textarea>
+        <form action="metoda" method="POST">
+            <input type="submit" value="Register >">   
+        </form>
+    </body>
+</html>

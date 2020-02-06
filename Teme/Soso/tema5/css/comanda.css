@@ -1,0 +1,19 @@
+input,select{
+    border-radius: 10px;
+    border-color: goldenrod;
+    width: 50%;
+}
+
+input[type=radio]{width: fit-content;}
+input[type=checkbox]{width: fit-content;}
+input[type=button]{border-radius: 0px;}
+.ypi, .da {display: inline-table; width: 500px;background-color: lightskyblue;}
+#why {border-radius: 10px;
+border: solid goldenrod;
+}
+.mandatory {
+font-style: italic;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: rgb(63, 35, 3);
+
+}
