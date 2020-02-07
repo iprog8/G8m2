@@ -1,0 +1,63 @@
+.firsthead{
+    background-color: #8e5572;
+    word-spacing: 5px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    color: #f2f7f2;
+}
+.limba{
+    background-color: #8e5572;
+    font-style: italic;
+    font-size: 15px;
+    border:none;
+    float: right;
+    width: 10%;
+    color: #f2f7f2;
+}
+.titlu{text-align: center;
+font-style: oblique;
+text-shadow: blanchedalmond 3px 2px;}
+
+.login{ 
+    font-style: normal;
+    float: right;
+    width: 100px;
+    font-size: small;
+    color: black;
+    text-shadow: none;
+}
+.meniu{
+ padding: 10px;
+ background-color: #8e5572;
+ color:#f2f7f2;
+ text-align: center;
+ word-spacing: 5px;
+}
+.meniu1{
+    border-radius: 5px;
+  }
+  .citate{
+      color: #bcaa99;
+      float: right;
+      width: 50%;
+      font-size: 20px;
+      font-style: italic;
+    
+  }
+  .subsol{
+     text-align: center;
+     background-color: #c2b97f;
+     color: #f2f7f2;
+     font-size: 15px;
+     
+  }
+  .subsol1{
+      background-color: #88665d;
+      color: #f2f7f2;
+      width: 150px;
+      height: 40px;
+      font-size: 20px;
+  }
+ 
+  
