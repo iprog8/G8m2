@@ -1,0 +1,2 @@
+function Hello ()
+alert message
