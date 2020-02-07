@@ -1,0 +1,119 @@
+.frumusica {
+    border-color: limegreen;
+    border-style: dotted;
+    border-width: 2px;
+}
+
+.frumusica-background{
+    background-color: magenta;
+}
+
+p {
+    /* selector dupa tag */
+    background-color: mediumpurple;
+}
+
+.clasa {
+    /* aceasta este o clasa css */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#identificator{
+    /* selector dupa id */
+    font-size: large;
+}
+
+
+p {
+    /* craere de culoare pe baza RGB (Red, Green, Blue)*/
+    background-color: rgb(200,0,200);
+}
+
+p {
+    /* craere de culoare pe baza RGBA (Red, Green, Blue, A= transparenta)*/
+    background-color: rgba(200,0,200,.0.5);
+}
+
+/*
+    0..00
+    1..01
+    ....
+    9..09
+    10..0A
+    11..0B
+    12..0C
+    ....
+    15..0F
+    16..10
+    17..11
+    18..12
+    25..19
+    26..1A
+    27..1B
+    ......
+    31..1F
+    32..20
+    ......
+    255..FF
+*/
+
+p {
+    /* craere de culoare pe baza de hexa
+    #000000 = negru
+    #ffffff = alb
+    */
+    background-color: #C800C8;
+    color: mediumspringgreen;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.button {
+    background-color: rosybrown;
+    color: red;
+    border: solid 1px cyan;
+}
+
+/* selectarea TUTUROR descendentilor 
+div p {
+    background-color: cyan;
+} */
+
+/* selectare tuturor copiilor
+div > p {
+    background-color: darkgreen;
+} */
+
+/* selectarea primului section dupa p */
+/*
+p + section {
+    background-color: darkred;
+} */
+
+/* selecteaza toate paragrafele de dupa un div */
+/* div ~ p {
+    background-color: deeppink;
+} */
+
+a:link {
+    background-color: red;
+}
+
+a:visited {
+    background-color: deepskyblue;
+}
+
+a:hover {
+    background-color: dodgerblue;
+    font-size: 9px;
+}
+
+a:active {
+    background-color: yellow;
+}
+
+a.hi:hover{
+    font-weight: 900;
+    font-size: 24px;
+}
