@@ -1,0 +1,16 @@
+
+body {
+  background-color: rgb(188, 229, 236);
+}
+
+h2 {
+  font-family: 'Times New Roman', Times, serif, monospace;
+}
+h4 {
+  font-family: 'Times New Roman', Times, serif, monospace;
+}
+
+::placeholder {
+  color: rgb(207, 84, 84);
+  opacity: 1; /* Chrome */
+}

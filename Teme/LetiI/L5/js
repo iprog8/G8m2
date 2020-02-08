@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>Progress Bar</title>
+        <script
+        
+        
+    </head>
+    <body>
+        <progress id="loadfile" value="50" max="100"></progress>
+       Atribute <input type="number" data-sequence="1"/>
+        <input type="number" data-sequence="2"/>
+       EvenimenteHTML
+       <input type="button" onclick="" />
+
+    </body>
+</html>
