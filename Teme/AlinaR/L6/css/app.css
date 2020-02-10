@@ -1,0 +1,50 @@
+body 
+  {
+   background-color: #cccccc;
+  }
+#primulparagraf
+  {
+    color: darkgreen;
+    font: caption;
+  }
+img
+  {
+    width: auto;
+    border-style: dotted;
+    border-color: floralwhite;
+    border-width: 2px;
+  }
+#aldoileaparagraf
+  {
+    background-color: gold;
+    color: indigo;
+    font-style: oblique;
+    font-weight: 200;
+    font-size: x-large;
+  }
+.lagramada
+  {
+    background: lightcoral;
+    color: rgb(200,0,300);
+    font-size: xx-large;
+  }
+a:hover
+  {
+    color:  #33dd77;  
+  }  
+.culorifrumoase
+  {
+    background-color: #EFEFEF;  
+    color: #A9A9A9;
+  }
+  mark
+   {
+    background-color:#caebf2;
+    color: #A9A9A9;
+   }
+.buton1
+  {
+    background-color: #FF3b3f;  
+    color: #EFEFEF;
+    font-size: large;
+  }
