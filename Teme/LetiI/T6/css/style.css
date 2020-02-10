@@ -1,0 +1,33 @@
+body{background-color: #cccccc;}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: initial;
+    border-bottom-color: #121212;
+    border-bottom-style: solid;
+    padding-bottom: 22px;
+}
+.numeprodus{
+    padding-bottom: 20px;
+    color: #332474;
+    font-size: 25px;
+    font-weight: bolder;
+    text-indent: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    border-bottom-color: #445566}
+
+.motivatie{ 
+        padding-bottom: 10px;
+        color:#570606;
+        text-indent: 20px;
+        font-weight: bold;
+        border-top: lightpink;
+        }
+.detalii{ 
+    padding-bottom: 10px;
+    color: #1d1152
+    font-size: 20px;
+    font-weight: bold;
+    text-indent: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    border-bottom-color: #445566}
+    a:hover{color: #33dd77;}
