@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <title>Register Form</title>
+        <link href="css/l6css.css" type="text/css" rel="stylesheet"/>
+    </head>
+    <body>
+        <h3 class="required">Register Form:</h3>
+        <form method="get" name="cotact" target="_self">
+            <fieldset>
+                  <legend><h4>Personal Information</h4></legend>
+
+                  <h4>Title:</h4>
+                  <label for="man">Mr:</label>
+                  <input type="radio" id="man" name="gender" value="Male" required>
+                  <label for="female">Mrs:</label>
+                  <input type="radio" id="female" name="gender" value="Female"><br><br>
+                  First name:<br>
+                  <input class="required-fields" type="text" name="firstname" placeholder="First name" required>
+                  <br>
+                  Last name:<br>
+                  <input class="required-fields" type="text" name="lastname" placeholder="Last name" required>
+                  <br>
+                  Email: <br>
+                  <input class="required-fields" type="email" name="email" placeholder="Valid e-mail address"><br/>
+                  Password:<br>
+                  <input class="required-fields" type="password" name="password" placeholder="Password" maxlength="10"><br>
+                  Nationality:<br>
+                  <select class="required-fields" name="nationality">
+                      <option value="">-- select one --</option>
+                      <option value="english">English</option>
+                      <option value="french">French</option>
+                      <option value="german">German</option>
+                      <option value="italian">Italian</option>
+                      <option value="romanian">Romanian</option>
+                      <option value="spanish">Spanish</option>
+                  </select><br>
+                  Passport Number:<br>
+                  <input type="number" name="passpor" placeholder="Passport Number"><br>
+                  First time buyer:<br>
+                  <select name="">
+                      <option value="">-- select one --</option>
+                      <option value="Yes">Yes</option>
+                      <option value="No">No</option>
+                  </select><br>
+                  Where did you hear about us:<br>
+                  <select>
+                      <option value="">--select one --</option>
+                      <option value="Facebook">Facebook</option>
+                      <option value="Youtube">Youtube</option>
+                      <option value="Other">Other</option>
+                  </select><br>
+                  Date of birth:<br>
+                  <input class="required-fields" type="date" required><br>
+              </fieldset>
+              <fieldset>
+                <legend><h4>Delivery Address</h4></legend>
+
+                  Address:<br>
+                  <input class="required-fields" type="text" name="address" placeholder="Type your address"><br>
+                  Country:<br>
+                  <select name="Country"><br>
+                      <option value="">--select one --</option>
+                      <option value="england">England</option>
+                      <option value="frence">Frence</option>
+                      <option value="germany">Germany</option>
+                      <option value="italy">Italy</option>
+                      <option value="romania">Romania</option>
+                      <option value="spain">Spain</option>
+                  </select><br>
+                  Zip code:<br>
+                  <input type="text" name="zip" placeholder="Type your Zip Code"><br>
+                  Mobile Phone:<br>
+                  <input type="text" name="mobile" placeholder="Type your Mobile Phone"><br>
+                  <label for="reason">Register Reasons:<br></label>
+                  <textarea name="reason" rows="7" cols="15">
+
+                  </textarea><br>
+                  <input type="checkbox" name="newsletter" value="Sign Up">Sign up for our newsletter<br>
+                  <input type="checkbox" name="special offers" value="Commercial">Receive special offers from our partners<br>
+                  <input type="submit" value="Register">
+            </fieldset>
+        </form>
+    </body>
+</html>

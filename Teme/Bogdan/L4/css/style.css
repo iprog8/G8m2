@@ -38,3 +38,9 @@ body:before {
 body:after {
     bottom: -10;
 }
+.formular {
+    color: rgb(211, 235, 199);
+}
+body {
+    background-color: rgb(25, 172, 103);
+}

@@ -14,9 +14,9 @@
             Adresa de mail
             <input type="text"placeholder="Introduceti mail-ul dvs." /> <br>
             Password 
-            <input type="password"placeholder="parola" /> <br>
+            <input type="password"placeholder="parola" maxlength="10"/> <br>
             Passport No.
-            <input type = "number" name = "Passport NO."value = "" maxlength = "9" /> <br>
+            <input type = "number" name = "PassportNO."  maxlength="9"/> <br>
             Were did you hear about us
             <select id="buyer" name="buyer" class="form-control"required> 
                 <option value="none"></option>
@@ -25,15 +25,18 @@
                 <option value="Friends">Friends</option>
                 <option value="Other">Other</option> 
             </select> <br>      
+
             Continent
-            <select id="continent" name="continent" class="form-control"required> 
+            <input list="Continente"/> 
+            <datalist id="Continente"></datalist>
                 <option value="none"></option>
-                <option value="America">America</option>
-                <option value="Eurasia">Eurasia</option>
-                <option value="Africa">Africa</option>
-                <option value="Australia">Australia</option> 
-                <option value="Antartica">Antartica</option> />
-            </select> <br>   
+                <option value="America"></option>
+                <option value="Eurasia"></option>
+                <option value="Africa"></option>
+                <option value="Australia"></option> 
+                <option value="Antartica"></option>
+            </datalist>
+         
             Data nasteri 
             <input type="date" name="dn"value="2020-01-01" /> <br>
             
