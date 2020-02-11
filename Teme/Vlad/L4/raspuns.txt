@@ -5,3 +5,8 @@ am cautat sticla de wiskey, dar n-am gasit-o
 haha, am eu doua pe masa.
 
 Eu: Ai o gramada de fisiere dar nu vad nimic legat de tema
+
+V: este tema pentru lab 4 . 
+-am video in index.html
+-am audio si listele  in chapter1.html
+-tabel in chapter4.html 

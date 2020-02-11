@@ -1,0 +1,37 @@
+.sitebody{
+    background-color:#cccccc;
+}
+.textp1{
+    font-size: xx-large;
+    font-style: italic;
+    color: chocolate;
+}
+.textp2{
+    font-size: larger;
+    font-style: italic;
+    color:rgb(87, 39, 4);
+}
+a:hover {
+    color: #3377dd;
+}
+.p5{
+    background-color: rgb(202, 120, 13);
+    color: rgb(105, 28, 28);
+    font-size: larger;
+    font-family: 'Lucida Sans', Arial, sans-serif
+    
+    
+
+}
+.p6{
+    background-color: rgb(104, 61, 5);
+    color: rgb(121, 109, 109);
+    font-size: larger;
+    font-family: 'Lucida Sans', Arial, sans-serif
+}
+.p7{
+    background-color: rgb(105, 28, 28);
+    color: rgb(202, 120, 13);
+    font-size: larger;
+    font-family: 'Lucida Sans', Arial, sans-serif
+}
