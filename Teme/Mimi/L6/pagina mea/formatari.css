@@ -1,0 +1,54 @@
+body{
+    background-color: #cccccc;
+}
+
+#aspect1 {
+    color: #734B5E;
+    font-size: large;
+    font-style: italic;
+}
+
+.aspect2 {
+    color:brown;
+    font-size:medium;
+    font-style: initial;
+}
+.aspect3_4 {
+    color: blue;
+    font-size: large;
+    font-style: italic;
+}
+a:link {
+    background-color:#FF00FF;
+}
+a:hover{
+        background-color: #33DD77;
+
+    }
+.aspect5{
+    background-color: #BCBDC0;
+    color: #2F2450;
+    border-color:#734B5E;
+    border-style: solid;
+    border-width: 8px;
+}
+
+.aspect6 {
+    font-style: oblique;
+    font-size: larger;
+    background-color:#92D089;
+    color:#1C6710;
+    border-color: #A5373F;
+    border-style: solid;
+    border-width: 5px;
+}
+.aspect7 {
+    background-color:#84E6F8;
+    color:#64113F;
+    border-color:#F29CA3;
+    border-style: solid;
+    border-width: 6px;
+}
+
+
+

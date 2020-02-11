@@ -1,0 +1,46 @@
+hr {
+    border: none;
+    border-top: 1px double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+hr:after {
+    background: #fff;
+    content: '';
+    padding: 0 30px;
+    position: relative;
+    top: -13px;
+}
+.registerbtn {
+    background-color:#900;
+    color: white;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 8%;
+    opacity: 0.9;
+}
+body:before, body:after {
+    content: "";
+    position: fixed;
+    background: #900;
+    left: 0;
+    right: 0;
+    height: 20px;
+}
+body:before {
+    top: -10;
+}
+body:after {
+    bottom: -10;
+}
+.formular {
+    color: rgb(211, 235, 199);
+}
+body {
+    background-color: rgb(25, 172, 103);
+}
