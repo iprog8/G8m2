@@ -1,0 +1,13 @@
+.body {
+    background-color: #cccccc;
+}
+.nature {
+    color:green;
+    font-family: cursive;
+}
+.youtube {
+    font-style: oblique;
+}
+a:hover {
+    background-color: #33dd77;
+}
