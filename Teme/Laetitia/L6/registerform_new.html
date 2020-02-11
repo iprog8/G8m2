@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="resurse/formreg.css">
+    </head>
+ 
+    <body>
+
+        <fieldset>
+        <legend><h2>YOUR PERSONAL INFORMATION</h2></legend>
+        <h4>Title</h4>
+        <input type="radio" name="gen" value="mister"/>Mr.<br/>
+        <input type="radio" name="gen" value="misses"/>Mrs.<br/>
+        <h4>First name*</h4>
+        <input type="text" name="firstname">
+        <h4>Last name*</h4>
+        <input type="text" name="lastname"/>
+        <h4>Email*</h4>
+        <input type="email" name="email" placeholder="enter a valid email"/>
+        <h4>Password</h4>
+        <input type="password" name="password" placeholder="**********" maxlength="10"/>
+        <h4>(Five characters minimum)</h4>
+        <h4>Nationality*</h4>
+        <input list="nationality"/>
+    <datalist id="nationality">
+        <option value="Afghanistan"></option>
+        <option value="Albania"></option>
+        <option value="Algeria"></option>
+        <option value="Andorra"></option>
+        <option value="UK"></option>
+        <option value="USA"></option>
+        <option value="Finland"></option>
+        <option value="Sweden"></option>
+        <option value="Norway"></option>
+        <option value="Denmark"></option>
+        <option value="Germany"></option>
+        <option value="France"></option>
+        <option value="Italy"></option>
+        <option value="Romania"></option>
+        <option value="Greece"></option><br/>
+    </datalist>
+        <h4>Passport Number*</h4>
+        <input type="passport" name="passport" placeholder="enter your passport number"/><br/>
+        <h4>First Time Buyer*</h4>
+        <select name="name"required>
+            <option value=""></option>
+            <option value="Yes">Yes,it's my first time</option>
+            <option value="No">No,it's not my first time</option>
+        </select>
+        <h4>Where did you hear about us*</h4>
+        <select name="name"required>
+            <option value=""></option>
+            <option value="Facebook">Facebook</option>
+            <option value="Other">Other social plathforms</option>
+            <option value="Friends">Friends</option>
+            <option value="Ads">Ads</option>
+        </select>
+        <h4>Date of Birth*</h4>
+        <input type="date" name="dn" value="2020-01-01" />
+    </fieldset><br/>
+    <fieldset>
+        <form action="http://example.com/" method="post">
+        <legend><h2>DELIVERY ADDRESS</h2></legend>
+        <h4>Address*</h4>
+        <input type= "text" name="address"/>
+        <h4>Address (Line 2)*</h4>
+        <input type= "text" name="address2" placeholder="vcxcxvx vxbxbbvxbvxbvxbvcb"/>
+        <h4>Country*</h4>
+        <input type="country" name="country" placeholder="enter your country here" />
+        <h4>City*</h4>
+        <input type="city" name="city" placeholder="enter your city here"/>
+        <h4>Zip/Postal Code*</h4>
+        <input type="postal code" name="postal code" placeholder="enter your zip/postal code"/>
+        <h4>Mobile phone*</h4>
+        <input type="phone"name="Mobile" placeholder="enter your phone nr."><br/>
+        <br/>
+        <label for="register">Regiter Reason:</label><br/>
+        <textarea id="register" rows="4" cols="50" placeholder="Enter your Reasons for Registering here">
+        </textarea><br/>
+        <br/>
+        <input type="checkbox" name="sign up for newsletter" value="yes">Sign up for our newsletter! <br/>
+        <input type="checkbox" name= "receive special offers" value="yes"/>Receive special offers from our partners!<br/>
+        <input type="submit"value="Register">
+        </form>
+    </fieldset>
+    <br/>
+
+    </body>
+
+</html>
