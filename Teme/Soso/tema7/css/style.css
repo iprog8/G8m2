@@ -1,0 +1,26 @@
+body{
+    background-color: lightcyan;
+}
+.DB_descriere{
+    text-align: center;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.goku{height: 200px;
+width: 300px; float: right;}
+.DB_poveste::first-letter{ font-size: 28px; color: darkgreen;}
+.DB_poveste{ text-align: left;}
+.DB_receptie{ font-size: 14px; font-family: tahoma;}
+.DB_link{padding:10px;
+    display: block;
+    color: #333333;
+    line-height: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkblue;
+    background-color: lightblue;
+    
+}
+.DB_link:hover{ color: black;
+background-color: lightcoral;}
+.DB_wiki{margin-bottom: 50px;}
