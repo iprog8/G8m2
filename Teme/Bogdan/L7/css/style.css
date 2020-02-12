@@ -1,0 +1,54 @@
+.html {
+    background-color: lightcyan;
+}
+
+.background { 
+    background:"resources/ciuperci.jpg" no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.titlu {
+    text-align: center;
+}
+
+.central {
+    text-align: center;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.alignleft {
+    text-align: left;
+}
+
+.alignright {
+    float: right;
+    margin-left: 30px;
+}
+
+.alignleft::first-letter{
+    font-size: 28px;
+    color: darkgreen;
+}
+
+.tahoma {
+    font-size: 16px;
+    font-family: tahoma;
+}
+
+a:link {
+    border-color: darkblue;
+    border: 1px;
+    border-style: solid;
+    background-color: lightblue;
+    color:#333333;
+}
+
+
+a:hover {
+    color: black;
+    background-color: lightcoral;
+}
