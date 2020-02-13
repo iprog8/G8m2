@@ -1,0 +1,131 @@
+.text-subtire{
+    font-weight: 100;
+}
+
+.text-gros{
+    font-weight: 900;
+}
+
+
+.aliniere-centru, .aliniere-jos, .aliniere-sus{
+
+    border:solid black;
+    height:30px;
+}
+
+
+.aliniere-centru{
+    vertical-align:middle;
+}
+
+.aliniere-jos{
+    vertical-align: bottom;
+}
+
+.aliniere-sus{
+    vertical-align: top;
+}
+
+.umbre{
+
+    color: white;
+    text-shadow:-3px 5px 10px #ff0000;
+    font-size: 35px;
+}
+
+.umbre-2{
+
+    color:white;
+    text-shadow: 1px 1px 2px red, 0 0 25px rgb(24, 24, 58), 0 0 5px darkblue;
+    font-size: 32px;
+}
+
+.lista-cerc{
+    list-style-type: circle;
+}
+
+.lista-patrat{
+list-style-type: square;
+}
+
+.lista-litere{
+   list-style-type: upper-alpha;
+   list-style-position: inside;
+
+}
+
+.lista-romane{
+    list-style-type: lower-roman;
+    list-style-position: inside;
+}
+
+
+ol.lista-romane li{
+    display:inline;
+}
+
+/*div, span{
+    border:1px solid #00CC00;
+}
+
+div{
+    display:inline;
+}
+
+span{
+    display:block;
+}*/
+
+.ascuns{
+    display:none;
+}
+
+.invizibil{
+    visibility:hidden;
+}
+
+table,th,td{
+    border: 1px solid black;
+}
+
+table{
+    border-collapse: collapse;
+    width:100%;
+}
+
+th{
+height:30px;
+text-align: center;
+vertical-align:middle;
+}
+
+tr:hover{
+    background-color: lightskyblue;
+    color:darkred;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+tr:nth-child(odd){
+    background-color: #e2e2a6;
+}
+
+caption{
+    caption-side: top;
+}
+
+
+.div-zburator{
+    float:right;
+    width:150px;
+    height:100px;
+    border:2px solid darksalmon;
+}
+
+.div-zburator-2{
+    display:inline-block;
+    width:150px;
+    height:100px;
+    border:2px solid darksalmon;
+}
