@@ -1,0 +1,36 @@
+body{
+    background-color: lightcyan;
+    text-align: center;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.text-left
+{
+  text-align: left;
+}
+img{
+    float: right;
+    height: 100px;
+   
+}
+p::first-letter{
+    font-size: 28px;
+    color: darkgreen;
+}
+div{
+    font-size: 16px;
+    font-family:Tahoma;
+}
+
+a{
+    border: darkblue;
+    border-width: 1px;
+    border-style: solid;
+    background-color: lightblue;
+    color:  #333333;
+}
+a:hover{
+    color: black;
+    background-color: lightcoral;
+}
