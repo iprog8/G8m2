@@ -1,0 +1,35 @@
+.fundal{
+    background-color: lightcyan ;
+}
+.formatare-paragraf1{
+    text-align: center;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.pozitionare-chitara{
+float: right;
+}
+.formatare-History{
+    text-align: left;
+    font-family: sans-serif;
+    
+}
+.prima-litera-History::first-letter{
+    font-size: 28px;
+    color: darkgreen;
+} 
+.modeleJEM{
+    font-size: 16px;
+    font-family: Tahoma;
+}
+.formatare-linkuri-modele-jem{
+    border: 1px solid;
+    border-color: darkslateblue;
+    background-color: lightblue;
+    display: inline-block;
+    color:#333333
+}
+a:hover {
+    color: black;
+    background-color: lightcoral;
+}
