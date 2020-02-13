@@ -1,0 +1,33 @@
+body {
+    background-color: lightcyan;
+    text-align: center;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.lyrics {
+    text-align: left;
+    color: darkgreen;
+
+}
+.lyrics::first-letter {
+    font-size: 28px;
+}
+.image_LS_position {
+    text-align: right;
+}
+div {
+    font-size: 16px;
+    font-family: tahoma;
+    text-align: left;
+    color: darkgreen; /* aici am pus aceeasi culoare ca la paragraful anterior ca sa arate bine */
+}
+.links {
+    border: 1px;
+    border-color: rgb(0, 0, 104);
+    background-color: lightblue;
+    color:#333333;
+}
+a:hover {
+    background-color: lightcoral;
+    color: black;
+}

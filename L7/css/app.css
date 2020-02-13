@@ -1,0 +1,102 @@
+.first-line-bold::first-line {
+    font-weight: 900;
+}
+
+.first-letter-big::first-letter{
+    font-size: 24px;
+}
+
+::selection{
+    background-color: lightgreen;
+    color: darkslategray;
+}
+
+/* Formatari text*/
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.justify{
+    text-align: justify;
+}
+
+.insert{
+    text-decoration: underline;
+    color:darkturquoise;
+}
+
+.unlink{
+    text-decoration: none;
+}
+.overline{
+    text-decoration: overline;
+}
+
+.delete{
+    text-decoration: line-through;
+}
+
+.upper{
+    text-transform: uppercase;
+}
+
+.lower{
+    text-transform: lowercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.normal{
+    font-variant: normal;
+}
+
+.small-caps{
+    font-variant: small-caps;
+}
+
+.identare {
+    text-indent: 50px;
+}
+
+.inghesuite{
+    letter-spacing: -1px;
+}
+
+.ingramadite{
+    word-spacing: -10px;
+}
+
+.randuri-apropiate{
+    line-height: 0.8;
+}
+
+.orientare{
+    direction: rtl;
+}
+
+.font-cool{
+    font-family: Roboto;
+}
+
+.font-mare{
+    font-size: 33px;
+}
+
+.font-super{
+    font-size: 33px;
+    font-family: Roboto;
+    font-variant: small-caps;
+    color:darkturquoise;
+    text-align: justify;
+}
