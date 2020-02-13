@@ -1,0 +1,32 @@
+body{
+    background-color: lightcyan;
+}
+
+.aliniere_text { 
+    text-align: center;
+    font-size: 14px;
+    font: sans-serif;
+}
+
+p.prima-litera::first-letter{
+    font-size: 28px;
+    color: darkgreen;
+}
+
+
+
+div.formatare-text{
+    font-size: 16px;
+    font: Tahoma;
+}
+a{
+    color: #333333;
+    border-style: solid;
+    border-width: 1px;
+    border-color: blueviolet;
+    background-color: lightblue;
+}
+a:hover{
+    background-color:lightcoral;
+    color:black;
+
