@@ -1,0 +1,45 @@
+.formatareBackground {
+    background-color:#585353;
+}
+.formatareMeniu{
+    background-color: rgb(150, 144, 150);
+    border: rgb(72, 41, 90);
+    border-style: solid;
+    border-width: 5px;
+    font-family: monospace;
+    font-size: larger;
+    }
+    a:hover {
+        background-color: rgb(83, 76, 100);
+        color: rgb(110, 7, 64);
+        font-style: oblique;
+    }
+    table, tr, td{
+        border: 1px solid rgb(247, 241, 241);
+        
+    }
+    .formatarePrimulRandTabel{
+        background-color: darkorchid;
+        color: burlywood;
+        
+}
+    table{
+        border-collapse: collapse;
+    }
+        
+    .formatareRanduriTabelContinut{
+        text-align: center;
+        color: burlywood;
+    }
+    
+    tr:hover{
+        background-color: brown;
+        color: rgb(96, 96, 138);
+    }
+    .formatareDiv{
+        float: right;
+        height: 200px;
+        width: 200px;
+        border: 1px solid rgb(224, 214, 214)
+       }
+  
