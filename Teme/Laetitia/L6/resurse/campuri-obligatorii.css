@@ -1,0 +1,10 @@
+body {
+    background-color: lightblue;
+}
+::placeholder {
+    text-align: center;
+
+}
+.campuri-obligatorii {
+    border-color: blueviolet;
+}

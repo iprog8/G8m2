@@ -1,0 +1,118 @@
+p.first-line-bold::first-line {
+font-weight:900;
+}
+
+p.first-letter-big::first-letter{
+    font-size:24px;
+}
+
+p::selection{
+    background-color:lightgreen;
+    color:darkslategray;
+}
+
+/*Formatari text*/
+
+.center {
+    text-align: center;
+}
+
+.left{
+    text-align: left
+}
+
+.right{
+text-align: right;
+
+}
+
+.justify{
+
+    text-align: justify;
+}
+
+.insert{
+    text-decoration:underline;
+}
+
+.unlink{
+
+    text-decoration:none;
+    color: darkorchid;
+}
+
+.overline{
+
+    text-decoration: overline;
+}
+
+.delete{
+
+    text-decoration: line-through;
+}
+
+.upper{
+    text-transform: uppercase;
+}
+
+.lower{
+    text-transform: lowercase;
+}
+
+.capitalize{
+    text-transform:capitalize;
+}
+.normal{
+    font-variant:normal;
+}
+
+.small-caps{
+    font-variant: small-caps;
+}
+
+.indentare{
+    text-indent: 50px;
+}
+
+.inghesuite{
+    letter-spacing: -2px;
+}
+/*Word Space*/
+.ingramadite{
+word-spacing:-7px;
+}
+
+.randuri-apropiate{
+line-height:1;
+}
+
+Nav{
+    direction:rtl;
+}
+
+Nav{
+    direction:ltr;
+}
+/* rtl Right to left and --> ltr Left to right*/
+.orientare{
+    direction:rtl;
+}
+
+.font-cool{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.font-mare{
+font-size:33px;
+
+}
+.font-mic{
+    font-size:11px;
+}
+
+.font-super{
+    font-size:33px;
+    font-variant:small-caps;
+    color:darkturquoise;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
