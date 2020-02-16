@@ -1,0 +1,49 @@
+body {
+    background-color: #cccccc;
+}
+.first-paragraph{
+    background-color: #dcd0dc;
+    text-align: left;
+    font-stretch: expanded;
+    font-family: sans-serif, "Helvetica Neue";
+}
+.p1-image {
+    float: left;
+    height: 180px; 
+    margin-right: 10px;
+
+}
+.second-paragraph {
+    font-stretch: expanded;
+    font-family: sans-serif, "Helvetica Neue";
+    float: inline-start;
+    text-align: left;
+}
+.video { 
+    float:left;
+    margin-right: 10px;
+}
+.third-fourth-paragraph {
+    font-stretch: expanded;
+    font-family: sans-serif, "Helvetica Neue";
+    float: inline-start;
+    text-align: left;
+}
+.third-fourth-paragraph:hover {
+    background-color: #33dd77;
+    text-align: justify;
+    border: brown;
+    margin: 10px 10px 10px;
+}
+.last-paragraphs{
+    text-align: justify;
+}
+#fifth {
+    background-color: #e36222;
+}
+#sixth {
+    background-color: #07889B;
+}
+#seventh {
+    background-color: #66b9BF;
+}
