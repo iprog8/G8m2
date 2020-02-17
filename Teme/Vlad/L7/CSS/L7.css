@@ -44,14 +44,21 @@ h3 {
     font-family: sans-serif, "Helvetica Neue";
     float: inline-start;
     text-align: left;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-stretch: expanded;
 }
 .third-fourth-paragraph:hover {
     background-color: #33dd77;
-    text-align: justify;
-    border: brown;
-    margin: 10px 10px 10px;
+}a {
+    margin: 25px 25px 0px 150px;
+}
+a:hover{
+    background-color: beige;
 }
 .last-paragraphs{
+    margin-top: 30px;
     text-align: justify;
 }
 #fifth {
