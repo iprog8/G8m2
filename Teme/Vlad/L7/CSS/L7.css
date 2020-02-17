@@ -1,23 +1,39 @@
 body {
     background-color: #cccccc;
+    
+}
+h3 {
+    text-align: center;
+}
+.content1 {
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 .first-paragraph{
     background-color: #dcd0dc;
-    text-align: left;
     font-stretch: expanded;
     font-family: sans-serif, "Helvetica Neue";
+    line-height: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
-.p1-image {
-    float: left;
-    height: 180px; 
-    margin-right: 10px;
-
+.image {
+    display: block;
+    height: 300px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .second-paragraph {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
     font-stretch: expanded;
     font-family: sans-serif, "Helvetica Neue";
-    float: inline-start;
-    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+
 }
 .video { 
     float:left;
