@@ -1,0 +1,75 @@
+h1{
+    text-align: left;
+    text-indent: 2px;
+    color: darksalmon;
+}
+body{background-color: mediumturquoise;}
+.meniu{
+    text-align: right;
+}
+.meniu-orizontal{
+    display: inline;
+font-size: large ;
+text-align: center;
+border-color: teal;
+border-style: solid;
+}
+.meniu-orizontal:hover{
+    background-color: teal;
+    font-weight: 900;
+    color: tomato;
+}
+caption
+{
+    text-align: left;
+color: teal;
+font-size: large;
+font-weight: bolder;
+} 
+
+table,th,td{
+    border-color: darkslategray;
+    border-style: solid;
+    border-width: 1px;
+}
+
+table{
+    border-collapse: collapse;
+    width:50%;
+}
+
+th{
+    height: 10px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+tr:nth-child(odd){
+    background-color: lightsalmon;
+}
+
+tr:nth-child(even){
+    background-color: floralwhite;
+}
+
+td:hover{
+    background-color: mediumturquoise;
+    color:teal;
+}
+h2{
+    text-align: right;
+}
+div{
+    float: right;
+    width: 200px;
+    height: 230px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: teal;
+    background-color: lightsalmon;
+    text-align: justify;
+ }
+ .aport-caloric{
+     background-color: teal;
+ }
+ #reteta{text-align: left;}
