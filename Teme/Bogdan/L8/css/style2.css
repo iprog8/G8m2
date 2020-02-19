@@ -1,0 +1,63 @@
+*{
+    border:0;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper{
+    width: 900px;
+    margin: 0 auto;
+    border: 2px solid rgb(17, 16, 16);
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -webkit-box-pack: justify;
+}
+
+.header{
+    height: 400px;
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+
+.nav{
+    height: 40px;
+    background-color: rgb(87, 83, 83);
+    font-size: 32px;
+    color: goldenrod;
+    font-weight: 400;
+    font-family: serif;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: goldenrod;
+}
+a:hover {
+    text-decoration-line: underline;
+    font-family: sans-serif;
+}
+
+.main-content{
+    width: 550px;
+    float: left;
+    min-height: 400px;
+}
+
+.sidebar{
+    width: 350px;
+    background-color: #eee;
+    float: right;
+    min-height: 400px;
+}
+
+.footer{
+    height: 75px;
+    background-color: #ccc;
+}
+
+.clear{
+    clear: both;
+}

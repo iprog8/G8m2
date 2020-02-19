@@ -24,8 +24,8 @@
     .formatarePrimulRandTabel{
         background-color: darkorchid;
         color: burlywood;
-        
-}
+    
+    }
     table{
         border-collapse: collapse;
         margin-left: 250px;
@@ -37,10 +37,17 @@
         color: burlywood;
     }
     
-    tr:hover{
+    tr.formatareRanduriTabelContinut:nth-child(odd){
+        background-color: lightgrey;
+    }
+    tr.formatareRanduriTabelContinut:nth-child(even){
+        background-color: lightpink;
+    }
+    tr.formatareRanduriTabelContinut:hover{
         background-color: brown;
         color: rgb(96, 96, 138);
     }
+
     .formatareDiv{
         float: right;
         height: 200px;
