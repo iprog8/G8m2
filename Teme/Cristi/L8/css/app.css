@@ -8,6 +8,9 @@
     border-width: 5px;
     font-family: monospace;
     font-size: larger;
+    margin-left: 500px;
+    margin-bottom: 1000
+    px;
     }
     a:hover {
         background-color: rgb(83, 76, 100);
@@ -25,6 +28,8 @@
 }
     table{
         border-collapse: collapse;
+        margin-left: 250px;
+        
     }
         
     .formatareRanduriTabelContinut{
@@ -40,6 +45,20 @@
         float: right;
         height: 200px;
         width: 200px;
-        border: 1px solid rgb(224, 214, 214)
+        border: 1px solid  rgb(224, 214, 214) ;
+        border: firebrick 5px double  ;
+        padding: 50px;
+        margin-right: 20px;
+        border-radius: 20px;
+    
        }
+       .divChitara{
+        width: 500px;
+        height: 500px;
+        border-style: solid ;
+        background-image: url(../resurse/lgt.jpg);
+        background-size: cover;
+        }
+       
+
   
