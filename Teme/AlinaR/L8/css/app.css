@@ -8,11 +8,14 @@ body{background-color: mediumturquoise;}
     text-align: right;
 }
 .meniu-orizontal{
-    display: inline;
+    display: inline-block;
 font-size: large ;
 text-align: center;
 border-color: teal;
 border-style: solid;
+padding: 6px;
+border-radius: 10px;
+
 }
 .meniu-orizontal:hover{
     background-color: teal;
@@ -25,13 +28,14 @@ caption
 color: teal;
 font-size: large;
 font-weight: bolder;
+margin-bottom: 4px;
 } 
 
 table,th,td{
     border-color: darkslategray;
     border-style: solid;
     border-width: 1px;
-}
+  }
 
 table{
     border-collapse: collapse;
@@ -68,8 +72,21 @@ div{
     border-color: teal;
     background-color: lightsalmon;
     text-align: justify;
+    padding: 10px 10px 10px 10px;
+    border-radius: 7px;
+    border-style: double;
  }
  .aport-caloric{
      background-color: teal;
+     text-align: center;
  }
  #reteta{text-align: left;}
+ .imagine{
+     float: left;
+    border:1px solid #000000;
+    height:700px;
+    width: 1200px;
+    background-repeat: no-repeat;
+    background-image: url("../resurse/cheesecake.jpg");
+
+ }
