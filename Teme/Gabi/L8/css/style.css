@@ -1,0 +1,78 @@
+body {
+    background-color: #5bc0be;
+}
+.title {
+    text-align: center;
+    font-family: monospace;
+    font-size: 30px;
+}
+.meniu-sus {
+    text-align: center;
+}
+.submeniu {
+    text-align: center;
+    display: inline;
+    font-size: larger;
+    border-style: solid;
+    border-color: #1c2541;
+    background-color: #3a506b;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin: -2px;
+}
+.submeniu:hover {
+    border-color: #0b132b;
+    background-color: #6fffe9;
+}
+table {
+    border-collapse: collapse;
+    width: 38%;
+}
+th {
+    color: #6fffe9 ;
+}
+table,th,td {
+    border-color: #0b132b;
+    border-style: solid;
+    border-radius: 1px;
+    text-align: center;
+    padding: 15px;
+}
+caption {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #1c2541;
+}
+tr:nth-child(odd){
+    background-color: #3a506b;
+}
+
+tr:nth-child(even){
+    background-color: #6fffe9;
+}
+td:hover {
+    background-color: #1c2541;
+    color: #6fffe9;
+}
+.floating-div {
+    float: right;
+    width: 280px;
+    height: 250px;
+    border-style: solid;
+    border: 6px double;
+    border-radius: 40px;
+    border-color: #1c2541;
+}
+h2 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+.div-image {
+    border:1px solid;
+    height: 600px;
+    background-image: url(../images/intel.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
