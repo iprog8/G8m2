@@ -1,0 +1,102 @@
+body {
+    background-color: #cccccc;
+}
+
+h1{
+    background-color: #5B3758;
+    color: #C65B7C;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2{
+    color:#5296A5;
+}
+
+h5 {background-color: #5296A5;
+border-top-style: ridge;
+font-family: 'Times New Roman', Times, serif;
+font-style: oblique;
+font-size: medium;
+border-color: #5296A5;
+}
+
+
+p { text-align: center;
+font-weight: 900px;}
+
+p::first-line{
+    font-weight:900;
+}
+
+.container{
+    border:4px dotted #F9627D;
+}
+
+
+.container1{
+    border:4px dotted #5B3758;
+    background-color: #C65B7C;
+}
+
+.quote{
+    color: #5B3758;
+    font-weight: 300;
+    font-size: larger; 
+    text-indent: 50px;  
+   }
+
+.quote1{
+ color: #5296A5;
+ font-weight: 300;
+ font-size: larger; 
+ text-indent: 50px;
+ background-color: #5B3758; 
+}
+
+.quote2{
+    background-color:#5296A5;
+    text-indent: 50px;
+    padding: 15px;
+    font-weight: bolder;
+    font-style: italic;
+    outline: #C65B7C solid 10px;
+}
+.quote3{
+    background-color:#5B3758;
+    text-indent: 50px;
+    padding: 15px;
+    font-weight: bolder;
+    font-style: italic;
+    outline: #F9ADA0 solid 10px;
+
+}
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+A:hover { COLOR: #33dd77; TEXT-DECORATION: none; font-weight: none }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  iframe {
+    display: block;
+    margin: 0 auto;
+ }
+
+ .ul-format{background-color: #C65B7C;
+    color: #5B3758;
+    margin: 20px;
+    padding: 20px;
+
+ }
+
+ 
