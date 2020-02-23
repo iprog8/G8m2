@@ -1,0 +1,62 @@
+body {
+
+    background-color:lightcyan;
+}
+
+p {
+    font-size: 14px;
+    font-family: sans-serif, Arial, Helvetica;
+    text-align: center;
+}
+
+p::first-letter {
+    font-size:28px;
+    color:darkgreen;
+}
+
+.first-line-bold p::first-line {
+    font-weight: 900;
+}
+
+.coronavirus {
+    height: 200px;
+    width: 300px; float: right;}
+
+li-style{
+    list-style-type:square;
+}
+
+div.tratament {
+    font-size: 16px;
+    font-family: tahoma;
+}
+    
+.first-line-bold p {
+    width: 73%;
+    float: left;
+}
+
+.first-line-bold img {
+    float: right;
+    width: 25%;
+}
+
+footer {
+    border: 1px solid darkblue;
+    width: 600px;
+    padding: 15px;
+    float: left;
+    background-color: lightblue;
+    margin-bottom: 10px;
+}
+
+footer a {
+    width: 100%;
+    float: left;
+    color: #333333;
+}
+
+footer a:hover {
+    background-color: lightcoral;
+    color: #000000;
+}

@@ -52,6 +52,9 @@ a:hover {
     background-color: #eee;
     float: right;
     min-height: 400px;
+    background-image: url(../resources/borat.jpg);
+    color: whitesmoke;
+    text-align: center;
 }
 
 .footer{
@@ -69,9 +72,11 @@ h1{
 
 th{
     height: 15px;
-    text-align: left;
+    text-align: center;
     vertical-align: middle;
     color: #200;
+    display: table-cell;
+    width: 131px;
 }
 
 table,td{
@@ -82,6 +87,7 @@ table,td{
     border-width: 1px;
     color: goldenrod;
     background-color: rgb(59, 56, 56);
+    text-align: center;
 }
 
 td:hover{
@@ -99,14 +105,28 @@ tr:nth-child(even){
     background-color: #200;
 }
 
-.pachet-bronze{
-    text-align: justify;
+.pachet{
+    text-align: left;
     border-width: 1px;
     border-style: solid;
     float: right;
-    width:178px;
-    height:243px;
-    margin-left: 3px;
+    width:165px;
+    height:225px;
+    margin-top: 10px;
+    margin-bottom: 1px;
+    margin-right: 1px;
+    margin-left: 1px;
+    padding: 0.5px;
+    padding-top: 5px;
+    padding-left: 10px;
+    border-radius: 5%;
+    box-shadow: 0 0 0 1px #000;
+}
+
+.pachet:hover{
+    background-color: goldenrod;
+    color: #200;
+    font-weight: bolder;
 }
 
 h3{

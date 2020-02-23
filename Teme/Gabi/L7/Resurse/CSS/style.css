@@ -21,7 +21,8 @@ div {
     text-align: left;
     color: darkgreen; /* aici am pus aceeasi culoare ca la paragraful anterior ca sa arate bine */
 }
-.links {
+.link {
+    border-style: solid;
     border: 1px;
     border-color: rgb(0, 0, 104);
     background-color: lightblue;

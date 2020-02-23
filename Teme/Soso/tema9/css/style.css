@@ -12,7 +12,7 @@ h1{
    color: mintcream;
    font-weight: bold;
     font-size: 15px;
-    font-weight: bold;
+    font-weight: bold; 
 }
 .meniu-principal-link:hover{background-color: mintcream;
         color:#ff6b6b}
@@ -35,7 +35,8 @@ display: inline;
 padding-left: 10%;
 padding-right: 10%;
 }
-table{background-color: white;}
+table{background-color: white;
+padding: 10px;}
 caption{font-weight: bold;
     font-style:italic ;
 font-size: 20px;}
@@ -60,10 +61,9 @@ td{
     width: 300px;
     height: 300px;
     float: right;
-    border-width: 2px;
-    border-style: solid;
-    outline-color: #4ecdc4;
-    outline-style: outset;
+    border-width: 5px;
+    border-style: double;
+    border-radius: 20px;
     text-align: justify;
     text-indent: 10px;
     color:#292f36;
@@ -73,10 +73,9 @@ td{
     width: 300px;
     height: 300px;
     float: right;
-    border-width: 2px;
-    border-style: solid;
-    outline-color: #4ecdc4;
-    outline-style: outset;
+    border-width: 5px;
+    border-style: double;
+    border-radius: 20px;
     text-align: justify;
     text-indent: 10px;
     color:#292f36;
@@ -87,10 +86,9 @@ td{
     width: 300px;
     height: 300px;
     float: right;
-    border-width: 2px;
-    border-style: solid;
-    outline-color: #4ecdc4;
-    outline-style: outset;
+    border-width: 5px;
+    border-style: double;
+    border-radius: 20px;
     text-align: justify;
     text-indent: 10px;
     color:#292f36;
@@ -100,20 +98,29 @@ td{
     width: 300px;
     height: 300px;
     float: right;
-    border-width: 2px;
-    border-style: solid;
-    outline-color: #4ecdc4;
-    outline-style: outset;
+    border-width: 5px;
+    border-style: double;
+    border-radius: 20px;
     text-align: justify;
     text-indent: 10px;
     color:#292f36;
     margin-bottom: 20px;
 }
+.workout{
+    background-color: mintcream;
+    background-image: url("../imagini/workout.jpg");
+    background-repeat: no-repeat;
+    width: 200px ;
+    height: 260px;
+    padding-top: 170px;
+    }
+    
+        
 p{margin-left: 5px;
 margin-right: 5px;}
-#products{margin-left: 10px;}
-li{
+#products{display: inline-block;
     margin-left: 10px;}
+li{margin-left: 10px;}
 
 img{
     display: block;
