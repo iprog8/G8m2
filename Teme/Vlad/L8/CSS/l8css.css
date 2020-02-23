@@ -1,0 +1,37 @@
+body {
+    background-color: cyan;
+    /*text-align: center;*/
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.text-allign-left{
+    text-align: left;
+    font-stretch: expanded;
+    line-height: 2.5rem;
+    
+   /*margin-left: 20px; */
+}
+.text-allign-left::first-letter{
+    font-size: 28px;
+    color: darkgreen;
+}
+img {
+    float: right;   
+    width: 300px;
+    height: 300px;
+    margin-right: 20;
+    margin-left: 20px;
+    /*margin : 20px 20px 20px 20px;*/
+}
+.font-tahoma {
+    font-size: 16px;
+    font-family: Tahoma;
+}
+footer {
+    border: 1px;
+    border-color: darkblue;
+    background-color: lightcoral;
+    color: black;
+    margin-top: 25px;
+}
+
