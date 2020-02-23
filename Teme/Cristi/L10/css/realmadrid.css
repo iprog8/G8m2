@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"]{
+    float: left;
+    padding-left: 0px ;
+    border: 2px solid rgb(52, 31, 77);
+
+}
+.col-1{
+    width: 8.33%;
+}
+.col-2{
+    width: 16.66%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.33%;
+}
+.col-5{
+    width: 41.66%;
+}
+.col-6{
+    width: 50%;
+}
+.col-8{
+    width: 66.66%;
+}
+.col-10{
+    width: 83.33%;
+}
+.col-12{
+    width: 100%;
+}
+.background{
+    background-image: url(../resurse/background.jpg) ;
+    background-repeat: no-repeat ;
+    background-size: 1360px 1000px;
+    background-attachment: fixed;
+    
+    
+}
+.logostanga{
+    float: left;
+    opacity: 0.5;
+}
+
+.logodreapta{
+    float: right;
+    opacity: 0.3;
+}
+
+.centrarebanner{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}
+.no7{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(52, 31, 77);
+    margin-left: 30px;
+    width: 540px;
+    opacity: 0.7;
+}
+.race7{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+    color: rgb(218, 209, 231);
+    text-shadow: 2px 2px 8px #FF0000;
+    margin-left: 200px;
+    opacity: 0.7;
+}
+.contenthistory{
+    font-family:  serif;
+    font-style: italic ;
+    font-size: 23px;
+    text-indent: 50px;
+    color: rgb(59, 24, 8);
+}
+.photoplayers{
+  padding-left: 0px;
+
+}
+.playersnames{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(52, 31, 77);
+    margin-left: 0px;
+    width: 400px;
+    opacity: 0.7;
+}
+.no7dreapta{
+    display: inline;
+    float: right;
+    
+}
+.usefullinks{
+    background-color: darkturquoise;
+    font-size: larger;
+    color: rgb(4, 4, 53);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity: 0.6;
+}  
+.flagopacity{
+    opacity: 0.6;
+}

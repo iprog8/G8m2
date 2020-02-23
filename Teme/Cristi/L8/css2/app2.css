@@ -1,0 +1,15 @@
+.tri{
+    width: 150px;
+    height: 0px;
+    background-color:;
+   /* border-top: 60px solid blue;*/
+    border-right: 00px solid transparent;
+    border-bottom: 70px solid rgb(153, 175, 73);
+    border-left: 10px solid transparent;
+}
+.sq{
+    width: 30px;
+    height: 30px;
+    background:rgb(153, 175, 73);
+    border: violet ;
+    border-radius: 50%;
