@@ -1,0 +1,17 @@
+body{background-color: #dee7e7;}
+ul{
+background-color: #4f646f;
+list-style-type: none;
+position: fixed;
+right: 0;
+left: 0;
+}
+.menu-home a{ border-width: 1px; border-top-left-radius: 10px; margin-left: 450px; }
+.menu-contact a{border-width: 1px; border-top-right-radius: 10px; margin-right: 300px; }
+li a { display:block; padding: 10px 30px 10px 30px; background-color: #535657;}
+li{float: left;}
+a{text-decoration: none; color:whitesmoke; font-family: "Sofia";}
+
+a:hover{background-color: #b7adcf; color: #535657; transition:all ease-in 0.4s; }
+a:active{background-color: green;} 
+ 

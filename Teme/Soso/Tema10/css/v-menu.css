@@ -1,0 +1,22 @@
+
+ul{
+    list-style-type: none;  
+    background-color: #E5EAFA;
+    padding: 0px;
+    margin: 50px;
+width: 200px;
+border-width: 1px;
+
+outline-color:  #C6CCB2;;
+outline-style: solid;
+outline-width: 20px;
+}
+li a{display: block;
+    text-decoration: none;
+    border-width: 1px;
+    color: black ;
+    padding: 10px 0px 10px 20px;
+font-family: "Audiowide";}
+a:hover{ background-color: #BF4E30; color: #78FECF;}
+a:active{ background-color: goldenrod; color: black;}
+    
