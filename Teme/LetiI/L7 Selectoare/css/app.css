@@ -1,0 +1,10 @@
+p.first-line-bold::first-line{
+    font-weight: 900;
+}
+p.first-letter-big::first-letter{
+    font-size: 25;
+}
+::selection {
+    background-color: lightsalmon;
+    color:red
+}
