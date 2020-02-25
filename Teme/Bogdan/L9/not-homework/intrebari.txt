@@ -1,0 +1,6 @@
+Neata, am o nelamurire in legatura cu div-urile, am tot incercat sa le pun in diferite pozitii pe pagina
+(ex stanga, dreapta) si n-am inteles cum ai reusit tu sa situezi in exemple unele div-uri fix unde ai vrut
+( ca in exemplul cu div-urile ca in chat-ul de fb ) fara a pune float sau alte comenzi desi tind sa cred ca
+impartindu-l de la inceput prin width si height le-ai si creat un spatiu fix. In site-ul facut de mine am 
+impartit div-urile relativ ok in comparatie cu ce mi-am imaginat, dar nu inteleg de ce div-ul content si
+main-content nu se incadreaza fix in div-ul creat, incadrat in borders, cum se observa si din "inspect element".
