@@ -1,0 +1,29 @@
+ul{
+    list-style-type: georgian;
+    margin:0px;
+     width:194px;
+     padding:0px;
+     background-color: aquamarine; 
+    } 
+.meniu{
+
+}
+.active{
+    background-color: rosybrown;
+    color: white;}
+li {
+    display:block;
+    color:#000;
+    padding:8px 0px 8px 4px;
+    text-decoration:none;
+}
+.meniu-orizontal {
+    display: inline-block;
+    color:#000;
+    padding:8px 0px 8px 4px;
+    text-decoration:none; }
+
+li:hover{
+    background-color:#555;
+    color:white;
+}

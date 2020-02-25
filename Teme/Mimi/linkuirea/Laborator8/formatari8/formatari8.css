@@ -3,19 +3,9 @@ body{
 
 }
 
-#home {
+#home, #about, #products, #team {
     border: solid 5px #8C1A6A;
 
-}
-#about {
-    border: solid 5px #8C1A6A ;
-
-}
-#products {
-    border: solid 5px #8C1A6A ;
-}
-#team {
-    border: solid 5px #8C1A6A ;
 }
 .butoane{
     float: right;
@@ -62,6 +52,8 @@ caption{
     width:200px;
     height: 200px;
     border: 2px solid #5AFF15;
+    margin: 2px;
+    padding: 5px;
 
 }
 .square{
