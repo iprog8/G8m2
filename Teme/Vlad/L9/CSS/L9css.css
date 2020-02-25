@@ -44,6 +44,9 @@ td, th {
     padding: 8px;
   }
   
+tr:nth-child(odd) {
+    background-color: #88557a;
+  }
 tr:nth-child(even) {
     background-color: #dddddd;
   }
