@@ -1,0 +1,17 @@
+ul{
+    list-style-type: none;  
+    background-color: grey;
+    padding: 0px;
+    margin: 20px;
+width: 200px;
+border-width: 1px;
+margin-bottom: 100px;
+}
+li a{display: block;
+    text-decoration: none;
+    border-width: 1px;
+    color: rgb(53, 41, 41) ;
+    padding: 10px 0px 10px 20px;
+font-family: 'Courier New', Courier, monospace;}
+a:hover{ background-color: rgb(115, 48, 191); color: #78FECF;}
+a:active{ background-color: rgb(32, 35, 218); color: black;}
