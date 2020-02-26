@@ -1,0 +1,11 @@
+* {
+    font-family: 'Odibee Sans';
+}
+
+[class*="col-"]{
+    border: 1px solid lightcoral;
+}
+
+.alert-danger {
+    background-color:hsl(36, 72%, 60%);
+}
