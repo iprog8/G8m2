@@ -1,0 +1,69 @@
+body {
+    background-color: ivory;
+    margin: 5px 25px 15px 15px;
+    /*max-width: 1230px;*/
+}
+
+.menu {
+    position: fixed;
+    width: 98%;
+}
+
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .menu li {
+    float: left;
+    width: 25%;
+  }
+  
+  .menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  .menu li a:hover {
+    background-color: #111;
+  }
+
+  .team {
+        padding-top: 60px;
+    }
+
+    .team table,
+    .team table td,
+    .team table th {
+    border: 1px solid #333;
+    padding: 5px;
+    margin: 5px;
+}
+
+.about {
+    width: 818px;
+    float: right;
+}
+
+.about div {
+    float: right;
+    width: 188px;
+    height: 188px;
+    border: 1px solid darkblue;
+    padding: 5px;
+    margin: 2px;
+}
+
+.about div p {
+    text-align: justify;
+    font-style: normal;
+    font-size: 12px;
+}
+

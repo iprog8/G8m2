@@ -1,0 +1,61 @@
+body{
+    background-color:#AAFFE5;
+
+}
+
+#home, #about, #products, #team {
+    border: solid 5px #8C1A6A;
+
+}
+.butoane{
+    float: right;
+    background-color:#AAFFE5;
+    font-size: 20px;
+    font-weight:500;
+}
+a:hover{
+    background-color: #5AFF15;
+}
+table,td,tr,th{
+    border: 3px solid #8C1A6A;
+    border-collapse: collapse;
+    font-weight: 900;
+    height: 30px;
+    text-align: center;
+    vertical-align: bottom;
+}
+th{ 
+    background-color: #A657AE;
+
+}
+tr:nth-child(odd){
+    background-color: #AAFFE5;
+}
+tr:nth-child(even){
+    background-color: #ffffff;
+}
+
+tr:hover{
+    background-color: #5AFF15;
+    color: #8C1A6A;
+    font-weight: 900;
+}
+caption{
+    caption-side: top;
+    color: #8C1A6A;
+    font-weight: 900;
+    height: 20px;
+    width: 600px;
+}
+.divuri-zburatoare{
+    float: right;
+    width:200px;
+    height: 200px;
+    border: 2px solid #5AFF15;
+    margin: 2px;
+    padding: 5px;
+
+}
+.square{
+    list-style: square;
+}
