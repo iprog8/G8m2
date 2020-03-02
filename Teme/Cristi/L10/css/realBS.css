@@ -1,0 +1,15 @@
+.grosimeGrid{
+    border: 2px solid rgb(52, 31, 77);
+}
+.centrarebanner{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}
+.floatDR{
+    float: right;
+}
+.floatST{
+    float: left;
+}
