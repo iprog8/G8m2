@@ -1,0 +1,31 @@
+body{
+    background-color: honeydew;
+}
+
+.div-1 {
+    width: 300px;
+    height: 100px;
+    padding: 50px;
+    border: 3px solid red;
+    margin: 5px;
+    position: relative;
+}
+
+.div-2 {
+  border: 1px solid black;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  background-color: rgb(207, 235, 52);
+}
+
+.div-3 {
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color: #d37070 ;
+  }
+  

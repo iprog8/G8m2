@@ -50,15 +50,19 @@ body {
 .about {
     width: 818px;
     float: right;
+    font-size: 18px;
+    display: flex;
 }
 
 .about div {
-    float: right;
+    display: inline-block;
     width: 188px;
     height: 188px;
     border: 1px solid darkblue;
     padding: 5px;
     margin: 2px;
+    font-size: 10px;
+    vertical-align: top;
 }
 
 .about div p {
