@@ -1,0 +1,7 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+[class*="col-"] {
+    border: 1px solid red;
+    border-collapse: collapse;
+}
