@@ -1,12 +1,13 @@
-var a = document.getElementById('bec');
-function TurnOn() {
+
+function Turn() {
+    var a = document.getElementById('bec');
     if (a != null) {
-        a.src = 'imagini/bulbon.png';
+        if (a.src.match("bulbon")) {
+            a.src = "imagini/bulboff.png";
+        }
+        else {
+            a.src = "imagini/bulbon.png";
+        }
     }
 }
 
-function TurnOff() {
-    if (a != null) {
-        a.src = 'imagini/bulboff.png';
-    }
-}
