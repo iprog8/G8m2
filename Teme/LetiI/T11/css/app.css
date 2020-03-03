@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+
 }
 .row::after{
     content:"";
@@ -9,6 +10,7 @@
 
 [class*="col-"]{
     float:left;
+    background-color: rgb(172, 208, 219);
     padding-left: 15px;
     border:1px solid green;
 }
