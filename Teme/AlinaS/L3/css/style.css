@@ -1,0 +1,38 @@
+.vertical-menu {
+    width: 200px;
+}
+
+.vertical-menu a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc;
+}
+
+.vertical-menu a.active {
+  background-color: black;
+  color: white;
+}
+
+table {
+    border-color: black;
+    border-style:solid;
+    border-width: 1px;
+}
+td {
+    border-color: red;
+    border-style:solid;
+    border-width: 1px;
+}
+
+thead{
+    font-weight: 900;
+}
+tbody{
+    background-color: lightcyan;
+}
