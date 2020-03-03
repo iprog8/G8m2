@@ -1,11 +1,14 @@
-function Verde(){
-    document.getElementById("cos-cumparaturi").style.color = "#006400";
-                }
-function Rosu(){
-    document.getElementById("cos-cumparaturi").style.color = "#8B0000";
-               }
-function Suma(){
-    a=35+41;
-    alert (a)
-               }
+function Inverzeste() {
+  document.getElementById("cos-cumparaturi").classList.add("green-text");
+  document.getElementById("cos-cumparaturi").classList.remove("red-text");
+}
 
+function Inroseste() {
+  document.getElementById("cos-cumparaturi").classList.add("red-text");
+  document.getElementById("cos-cumparaturi").classList.remove("green-text");
+}
+
+function Aduna() {
+  var suma = 35 + 41;
+  alert(suma);
+}
