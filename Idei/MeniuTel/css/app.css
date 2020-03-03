@@ -1,0 +1,56 @@
+
+.call-to-action {
+    display:none;
+}
+
+@media (max-width:768px) {
+
+    .call-to-action {
+        display: block;
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        z-index: 99;
+        background: #dddddd;
+        width: 100%;
+        border-top: 1px solid #ffffff;
+        border-left: 1px solid #ffffff;
+        border-right: 1px solid #ffffff;
+        height: 40px;
+        line-height: 40px;
+    }
+
+    .call-to-action span.text {
+        font-size: 11px;
+        line-height: 26px;
+        vertical-align: middle;
+        font-weight: bold;
+    }
+
+    .phone {
+        width: 32%;
+        text-align: center;
+        display: inline-block;
+        font-size: 20px;
+        border-right: 1px solid #ffffff;
+        color: #b31313;
+    }
+
+    .whatsapp {
+        width: 32%;
+        text-align: center;
+        display: inline-block;
+        font-size: 20px;
+        color: #1b8f45;
+        border-right: 1px solid #ffffff;
+    }
+
+    .mail {
+        width: 32%;
+        text-align: center;
+        display: inline-block;
+        font-size: 20px;
+        color: #0572bb;
+    }
+
+}
