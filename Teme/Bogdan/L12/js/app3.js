@@ -1,21 +1,20 @@
 var imagePlace;
-var x=1;
+var statusBec = 1;
 
 function Aprins() {
-    imagePlace = document.getElementById('Light-Bulb');
+  imagePlace = document.getElementById("Light-Bulb");
 
-    if (x==1) {
-        imagePlace.src = "images/bulb-on.png";
-        imagePlace.alt = "Becul este aprins";
-        imagePlace.title = "Becul este aprins";
-        x--;
-    }
-    else {
-        if (x==0) {
-            imagePlace.src = "images/bulb-off.png";
-            imagePlace.alt = "Becul este stins";
-            imagePlace.title = "Becul este stins";
-            x++;
-    }
-}
+  if (statusBec == 1) {
+    imagePlace.src = "images/bulb-on.png";
+    imagePlace.alt = "Becul este aprins";
+    imagePlace.title = "Becul este aprins";
+    statusBec = 0;
+  } else if (statusBec == 0) {
+    imagePlace.src = "images/bulb-off.png";
+    imagePlace.alt = "Becul este stins";
+    imagePlace.title = "Becul este stins";
+    statusBec = 1; // statusBec++;
+  } else {
+    alert("status nedefinit pentru statusBec = " + statusBec);
+  }
 }
