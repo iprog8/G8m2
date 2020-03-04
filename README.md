@@ -1,4 +1,4 @@
-# G8m2
+# G8m2: Web-ul este viitorul
 
 Acest repository este utilizat pentru desfasurarea Modulului 2: Web-ul este viitorul din programul de reconversie profesionala creat de https://invatamprogramare.ro,  detalii aici: https://www.facebook.com/events/495101017790676/
 
