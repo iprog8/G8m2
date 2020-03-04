@@ -28,7 +28,8 @@ function OStructuraDecizionala() {
 
   if (seconds % 2 == 0) {
     alert("numarul " + seconds + " este par");
-  } else {
+  }
+  else {
     alert("numarul " + seconds + " este impar");
   }
 }

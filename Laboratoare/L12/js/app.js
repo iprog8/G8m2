@@ -38,12 +38,10 @@ function TurnDay() {
 
 function TurnNight() {
     var bodys = document.getElementsByTagName('body');
-
     bodys[0].classList.add('night');
     bodys[0].classList.remove('day');
 }
 
 function Tunr() {
     var divs = document.getElementsByClassName('class-selector');
-
 }
