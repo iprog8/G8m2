@@ -25,3 +25,15 @@ function TurnOff() {
         imagePlace.title = "Becul este stins";
     }
 }
+
+function TurnOn() {
+    var imagePlace = document.getElementById('lightImg');
+
+    if (imagePlace != null) {
+        imagePlace.src = "images/bulbon.png";
+        imagePlace.alt = "Becul este aprins";
+        imagePlace.title = "Becul este aprins";
+    } else {
+        console.warn("NU am gasit unde sa pun bec!");
+    }
+}
