@@ -1,0 +1,52 @@
+body {
+    background-color: lavenderblush;
+}
+
+h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+}
+
+#cos-cumparaturi {
+    width: 300px;
+    padding: 15px 32px;
+    text-align: center;
+    margin: 4px 2px;
+    background: none;
+}
+
+.red-text {
+    background-color: #ff00002f;
+    border: none;
+    color: #ff0000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .green-text {
+    background-color: rgba(76, 175, 79, 0.185);
+    border: none;
+    color: #4CAF50;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .background1 {
+      background-color: wheat;
+  }
+
+  .background2 {
+    background-color: rgb(155, 189, 190);
+}
+
+.background3 {
+    background-color: rgb(203, 140, 228);
+}
