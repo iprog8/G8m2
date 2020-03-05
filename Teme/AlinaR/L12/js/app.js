@@ -1,11 +1,11 @@
 
 function SchimbaRosu() {
-    var culoare = document.getElementById("cos-cumparaturi")
-    if (culoare != null) { culoare.style = "color:red" }
+    var culoare = document.getElementById("cos-cumparaturi").classList.remove("verde")
+    var culoare = document.getElementById("cos-cumparaturi").classList.add("rosu")
 }
 function SchimbaVerde() {
-    var culoare = document.getElementById("cos-cumparaturi")
-    if (culoare != null) { culoare.style = "color:green" }
+    var culoare = document.getElementById("cos-cumparaturi").classList.remove("rosu")
+    var culoare = document.getElementById("cos-cumparaturi").classList.add("verde")
 }
 
 function CalculeazaSuma() {
