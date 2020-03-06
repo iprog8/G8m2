@@ -1,0 +1,13 @@
+.default-class {
+    background-color: magenta;
+}
+
+.light{
+    background-color: lightgoldenrodyellow;
+    color: darkseagreen;
+}
+
+.dark{
+    background-color: #333333;
+    color: lightskyblue;
+}

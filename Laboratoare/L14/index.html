@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="js/app.js"></script>
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body id="bdy">
+    <h1>Data</h1>
+    <div id="data">
+        ABCD
+    </div>
+
+    <input type="text" onchange="SaSchimbatTextul()">
+    <input type="button" value="Theme Dark" onclick="ChangeBackgroudCss('dark', 'bdy')">
+    <input type="button" value="Theme Light" onclick="ChangeBackgroudCss('light', 'bdy')">
+
+    <input type="button" value="Div Dark" onclick="ChangeBackgroudCss('dark', 'data')">
+    <input type="button" value="Div Light" onclick="ChangeBackgroudCss('light', 'data')">
+    <hr />
+    <input type="button" value="Afiseaza suma de plata" onclick="AfiseazaSuma()">
+    <input type="button" value="Animale" onclick="TesteazaAnimale()">
+</body>
+
+</html>
