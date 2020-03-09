@@ -1,0 +1,32 @@
+.header{
+    background-color: darkslategrey;
+    text-align: center;
+    color: rgb(184, 158, 11);
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+.body{
+    text-align: center;
+    border-style: solid;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-radius: 10px;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+.question {
+    background-color: rgb(83, 163, 87);
+    text-align: left;
+    border-style: solid;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
