@@ -5,38 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>L15</title>
     <link rel="stylesheet" href="CSS/l15.css">
-    <script src="JS/l15.js"></script>
+    <script src="JS/l15v2.js"></script>
 </head>
 <body>
     <h3 class="title">Concurs de cultura generala</h3>
     <form id="quiz" name="quiz">
         <fieldset>
             <h4>1.Care este capitala Lituaniei ?</h4>
-            <input type="radio" id="lithuania" name="question1" value="Riga" required>Riga<br>
-            <input type="radio" id="lithuania" name="question1" value="Vilnius">Vilnius<br>
-            <input type="radio" id="lithuania" name="question1" value="Talin">Talin<br>
-            <input type="radio" id="lithuania" name="question1" value="Minsk">Minsk<br>
+            <div id="Riga"><input type="radio"  name="question1" value="Riga" required>Riga</div>
+            <div id="Vilnius"><input type="radio" name="question1" value="Vilnius">Vilnius</div>
+            <div id="Tallinn"><input type="radio"  name="question1" value="Tallinn">Tallinn</div>
+            <div id="Minsk"><input type="radio"  name="question1" value="Minsk">Minsk</div>
             <h4>2.Care este cel mai lung fluviu din Europa ?</h4>
-            <input type="radio" id="river" name="question2" value="Dunarea" required>Dunarea<br>
-            <input type="radio" id="river" name="question2" value="Rin">Rin<br>
-            <input type="radio" id="river" name="question2" value="Volga">Volga<br>
-            <input type="radio" id="river" name="question2" value="Nipru" >Nipru<br>
+            <div id="Dunarea"><input type="radio" name="question2" value="Dunarea" required>Dunarea</div>
+            <div id="Rin"><input type="radio" name="question2" value="Rin">Rin</div>
+            <div id="Volga" ><input type="radio" name="question2" value="Volga">Volga</div>
+            <div id="Nipru"><input type="radio" name="question2" value="Nipru" >Nipru</div>
             <h4>3.Care este cel mai inalt varf din U.E. ?</h4>
-            <input type="radio" id="peak" name="question3" value="Mont Blanc" required>Mont Blanc<br>
-            <input type="radio" id="peak" name="question3" value="Moldoveanu">Moldoveanu<br>
-            <input type="radio" id="peak" name="question3" value="Monte Bianco">Monte Bianco<br>
-            <input type="radio" id="peak" name="question3" value="Olympus" >Olympus<br>
+            <div id="Mont Blanc"><input type="radio" name="question3" value="Mont Blanc" required>Mont Blanc</div>
+            <div id="Moldoveanu"><input type="radio"  name="question3" value="Moldoveanu">Moldoveanu</div>
+            <div id="Monte Bianco"><input type="radio"  name="question3" value="Monte Bianco">Monte Bianco</div>
+            <div id="Olimp"><input type="radio"  name="question3" value="Olimp">Olimp</div>
             <h4>Care este tara cu cea mai mare populatie din U.E. ?</h4>
-            <input type="radio" id="maxpopulation" name="question4" value="Franta" required>Franta<br>
-            <input type="radio" id="maxpopulation" name="question4" value="Italia">Italia<br>
-            <input type="radio" id="maxpopulation" name="question4" value="Germania">Germania<br>
-            <input type="radio" id="maxpopulation" name="question4" value="U.K.">U.K.<br>
+            <div  id="Franta"><input type="radio" name="question4" value="Franta" required>Franta</div>
+            <div id="Italia"><input type="radio" name="question4" value="Italia">Italia</div>
+            <div id="Germania" ><input type="radio" name="question4" value="Germania">Germania</div>
+            <div id="U.K."><input type="radio" name="question4" value="U.K.">U.K.</div>
             <h4>Care tara nu are iesire la mare ?</h4>
-            <input type="radio" id="landlocked" name="question5" value="Poland" required>Poland<br>
-            <input type="radio" id="landlocked" name="question5" value="Ukraine" >Ukraine<br>
-            <input type="radio" id="landlocked" name="question5" value="Montenegro" >Montenegro<br>
-            <input type="radio" id="landlocked" name="question5" value="Serbia" >Serbia<br><br>
-            <input id="button" type="button" value="Trimite Raspunsuri" onclick="question_results()">
+            <div id="Polonia"><input type="radio" name="question5" value="Polonia" required>Polonia</div>
+            <div id="Ucraina"><input type="radio" name="question5" value="Ucraina" >Ucraina</div>
+            <div id="Muntenegru" ><input type="radio" name="question5" value="Muntenegru" >Muntenegru</div>
+            <div id="Serbia"><input type="radio" name="question5" value="Serbia" >Serbia</div><br>
+            <!-- <input id="button" type="button" value="Trimite Raspunsurile" onclick="question_results()"> -->
+            <input id="button" type="button" value="Trimite Raspunsurile" onclick="checkAnswerv2()">
             <p id="correct"></p>
             <p id="incorrect"></p>
         </fieldset>
