@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz</title>
+    <script src="js/app.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+    <div class="content">
+        <div class="row data-title">
+            <div class="col-1"></div>
+            <div class="col-10">
+                <h1>Chestionar Romania</h1>
+            </div>
+            <div class="col-1"></div>
+        </div>
+        <hr />
+        <div class="row data-question">
+            <div class="col-1"></div>
+            <div class="col-10">
+                <div class="question">
+                    1. Care este cel mai inalt varf din Romania?
+                </div>
+            </div>
+            <div class="col-1"></div>
+        </div>
+        <div class="row data-answer">
+            <div class="col-2"></div>
+            <div class="col-9">
+                <div class="answer">
+                    <ol class="options">
+                        <li class="option">
+                            <input type="radio" class="answer" name="q1" id="q1-a" value="a">
+                            <span id="q1-a-span" onclick="CheckRadio(this)">2507 m</span>
+                        </li>
+                        <li class="option">
+                            <input type="radio" class="answer" name="q1" id="q1-b" value="b">
+                            <span id="q1-b-span" onclick="CheckRadio(this)">2005 m</span></li>
+                        <li class="option">
+                            <input type="radio" class="answer" name="q1" id="q1-c" value="c">
+                            <span id="q1-c-span" onclick="CheckRadio(this)">2544 m</span></li>
+                        <li class="option">
+                            <input type="radio" class="answer" name="q1" id="q1-d" value="d">
+                            <span id="q1-d-span" onclick="CheckRadio(this)">2576 m</span></li>
+                    </ol>
+                </div>
+            </div>
+            <div class="col-1"></div>
+        </div>
+        <hr />
+        <div class="row data-question">
+            <div class="col-1"></div>
+            <div class="col-10">
+                <div class="question">
+                    1. Cand s-a infaptuit Marea Unire in Romania?
+                </div>
+            </div>
+            <div class="col-1"></div>
+        </div>
+        <div class="row data-answer">
+            <div class="col-2"></div>
+            <div class="col-9">
+                <div class="answer">
+                    <ol class="options">
+                        <li class="option">
+                            <input type="radio" class="answer" name="q2" id="q2-a" value="a">
+                            <span id="q2-a-span" onclick="CheckRadio(this)">24 ianuarie 1918</span>
+                        </li>
+                        <li class="option">
+                            <input type="radio" class="answer" name="q2" id="q2-b" value="b">
+                            <span id="q2-b-span" onclick="CheckRadio(this)">24 ianuarie 1859</span>
+                        </li>
+                        <li class="option">
+                            <input type="radio" class="answer" name="q2" id="q2-c" value="c">
+                            <span id="q2-c-span" onclick="CheckRadio(this)">1 decembrie 1859</span>
+                        </li>
+                        <li class="option">
+                            <input type="radio" class="answer" name="q2" id="q2-d" value="d">
+                            <span id="q2-d-span" onclick="CheckRadio(this)">1 decembrie 1918</span>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <div class="col-1"></div>
+        </div>
+        <hr />
+        <div class="row data-evaluate">
+            <div class="col-4"></div>
+            <div class="col-2">
+                <input type="button" value="Trimite raspunsuri" onclick="AnalizeAnswers()">
+            </div>
+            <div class="col-6"></div>
+        </div>
+        <div id="testDiv" class="row data-done">
+            <div class="col-3"></div>
+            <div class="col-6">
+                <div id="testResult" class="alert">
+                    Ai raspuns corect la 2 intrebari din 2.
+                </div>
+            </div>
+            <div class="col-3"></div>
+        </div>
+
+        <div id="popupResult" class="popup-closed">
+            <div class="row">
+                <div class="col-10">
+                    Rezultat test
+                </div>
+                <div class="col-2">
+                    <input type="button" value="x" onclick="Close(this)">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-10">
+                    <div id="testResult2" class="result">
+                        Ai rezolvat x intrebari din y.
+                    </div>
+                </div>
+                <div class="col-1"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

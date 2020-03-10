@@ -1,0 +1,25 @@
+.data-done {
+    display: none;
+}
+
+li.option {
+    cursor: pointer;
+}
+
+input.answer {
+    cursor: pointer;
+}
+
+div.popup {
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    left: 300px;
+    top:200px;
+    background-color: whitesmoke;
+    border: 1px solid lightslategray;
+}
+
+div.popup-closed {
+    display: none;
+}
