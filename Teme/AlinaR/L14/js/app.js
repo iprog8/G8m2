@@ -21,17 +21,7 @@ function CalculeazaPunctaj() {
     var afiseazaDiv = document.getElementById("score");
     switch (correctAnswers) {
         case 0:
-            afiseazaDiv.innerText = "Numarul de raspunsuri corecte este: " + correctAnswers + ". Mai invata si reia testul";
-            afiseazaDiv.classList.add("fail");
-            afiseazaDiv.classList.remove("okish");
-            afiseazaDiv.classList.remove("success");
-            break;
         case 1:
-            afiseazaDiv.innerText = "Numarul de raspunsuri corecte este: " + correctAnswers + ". Mai invata si reia testul";
-            afiseazaDiv.classList.add("fail");
-            afiseazaDiv.classList.remove("okish");
-            afiseazaDiv.classList.remove("success");
-            break;
         case 2:
             afiseazaDiv.innerText = "Numarul de raspunsuri corecte este: " + correctAnswers + ". Mai invata si reia testul";
             afiseazaDiv.classList.add("fail");
@@ -39,11 +29,6 @@ function CalculeazaPunctaj() {
             afiseazaDiv.classList.remove("success");
             break;
         case 3:
-            afiseazaDiv.innerText = "Numarul de raspunsuri corecte este: " + correctAnswers + ". Ai o memorie bunicica";
-            afiseazaDiv.classList.add("okish");
-            afiseazaDiv.classList.remove("fail");
-            afiseazaDiv.classList.remove("success");
-            break;
         case 4:
             afiseazaDiv.innerText = "Numarul de raspunsuri corecte este: " + correctAnswers + ". Ai o memorie bunicica";
             afiseazaDiv.classList.add("okish");
