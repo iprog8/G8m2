@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="css/app.css">
+    <script src="js/chestionar.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <h1></h1>
+
+    </div>
+    <div class="body">
+        <form name="quiz" onsubmit="return onSubmit()">
+            <div class="question">
+                <h1>Cate module are programul educational InvatamProgramare.ro?</h1>
+                <input type="radio" name="q1" value="a">a. 2<br>
+                <input type="radio" name="q1" value="b">b. 5<br>
+                <input type="radio" name="q1" value="c">c. 4<br>
+                <input type="radio" name="q1" value="d">d. 10<br>
+            </div>
+            <div class="question">
+                <h1>Cine este mentorul acestui program educational?</h1>
+                <input type="radio" name="q2" value="a">a. Cristi Avram<br>
+                <input type="radio" name="q2" value="b">b. Ovidiu Rudi<br>
+                <input type="radio" name="q2" value="c">c. Mark Zuckerberg<br>
+                <input type="radio" name="q2" value="d">d. Ministrul Educatiei<br>
+            </div>
+            <div class="question">
+                <h1>Care este programa modulului 2?</h1>
+                <input type="radio" name="q3" value="a">a. Python<br>
+                <input type="radio" name="q3" value="b">b. Scratch<br>
+                <input type="radio" name="q3" value="c">c. Baze de date<br>
+                <input type="radio" name="q3" value="d">d. Web Development<br>
+            </div>
+            <div class="question">
+                <h1>Ce limbaje se studiaza in cadrul modulului doi?</h1>
+                <input type="radio" name="q4" value="a">a. HTML-CSS-Java<br>
+                <input type="radio" name="q4" value="b">b. Javascript-CSS-Python<br>
+                <input type="radio" name="q4" value="c">c. HTML-CSS-Javascript<br>
+                <input type="radio" name="q4" value="d">d. HTTP-CSS-Javascript<br>
+
+
+            </div>
+            <div class="question">
+                <h1>cand este programata intalnirea Weekend of Code?</h1>
+                <input type="radio" name="q5" value="a">a. 14 mar - 15 mar<br>
+                <input type="radio" name="q5" value="b">b. 14 mai - 15 mai<br>
+                <input type="radio" name="q5" value="c">c. 8 mar - 9 mar<br>
+                <input type="radio" name="q5" value="d">d. 14 apr - 15 apr<br>
+            </div>
+            <button type="submit">Trimite raspunsuri</button>
+            <p id="result"></p>
+    </div>
+</body>
+
+</html>
