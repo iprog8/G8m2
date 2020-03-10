@@ -1,7 +1,7 @@
-function culoare1() {
+function schimbaculoareaindarkblue() {
     document.getElementById('cos-cumparaturi').style.color = "darkblue";
 }
-function culoare2() {
+function schimbaculoareainred() {
     document.getElementById('cos-cumparaturi').style.color = "red";
 }
 function suma() {

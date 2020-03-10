@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <script src="js/app.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="title">Test pentru amatorii de jocuri video!</div><br>
+    <form id="quiz" name="quiz">
+        <fieldset>
+            <div class="intrebari">1.Cum se numeste jocul de mai jos?</div><br>
+            <img src="images/doom.jpg" width="1000" height="700"><br>
+            <input type="radio" id="namethegame0" name="question1" value="League of Legends" required>League of
+            Legends<br>
+            <input type="radio" id="namethegame0" name="question1" value="Doom">Doom<br>
+            <input type="radio" id="namethegame0" name="question1" value="Wolfenstein">Wolfenstein<br>
+            <input type="radio" id="namethegame0" name="question1" value="Mario">Mario<br><br><br><br><br><br>
+
+            <div class="intrebari">2.Cine este personajul de mai jos?</div><br>
+            <img src="images/trevor.jpg" width="1000" height="700"><br>
+            <input type="radio" id="namethecharacter0" name="question2" value="Michael De Santa" required>Michael De
+            Santa<br>
+            <input type="radio" id="namethecharacter0" name="question2" value="Frankiln Clinton">Frankiln Clinton<br>
+            <input type="radio" id="namethecharacter0" name="question2" value="Lester Crest">Lester Crest<br>
+            <input type="radio" id="namethecharacter0" name="question2" value="Trevor Philips">Trevor
+            Philips<br><br><br><br><br><br><br>
+
+            <div class="intrebari">3.Cum se numeste locatia de mai jos?</div><br>
+            <img src="images/grove-street.jpg" width="1000" height="700"><br>
+            <input type="radio" id="namethelocation" name="question3" value="Grove-street" required>Grove-street<br>
+            <input type="radio" id="namethelocation" name="question3" value="Dix Road">Dix Road<br>
+            <input type="radio" id="namethelocation" name="question3" value="Broadway">Broadway<br>
+            <input type="radio" id="namethelocation" name="question3" value="Market Street">Market
+            Street<br><br><br><br><br><br><br>
+
+            <div class="intrebari">4.Cum se numeste jocul de mai jos?</div><br>
+            <img src="images/wolfenstein.jpg" width="1000" height="700"><br>
+            <input type="radio" id="namethegame1" name="question4" value="God of War" required>God of War <br>
+            <input type="radio" id="namethegame1" name="question4" value="Batman">Batman <br>
+            <input type="radio" id="namethegame1" name="question4" value="Wolfenstein"> Wolfenstein<br>
+            <input type="radio" id="namethegame1" name="question4" value="Doom">Doom <br><br><br><br><br><br><br>
+
+            <div class="intrebari">5.Cum se numeste personajul de mai jos?</div><br>
+            <img src="images/sonic.jpg" width="1000" height="700"><br>
+            <input type="radio" id="namethecharacter1" name="question5" value="Mario" required>Mario<br>
+            <input type="radio" id="namethecharacter1" name="question5" value="Sonic">Sonic <br>
+            <input type="radio" id="namethecharacter1" name="question5" value="Shodan">Shodan <br>
+            <input type="radio" id="namethecharacter1" name="question5" value="Agent 47">Agent 47<br><br><br><br>
+            <input id="button" type="button" value="Trimite raspunsuri" onclick="raspunsuri()">
+            <p id="raspunsuri-corecte"></p>
+            <p id="raspunsuri-incorecte"></p>
+        </fieldset>
+    </form>
+</body>
+
+</html>
