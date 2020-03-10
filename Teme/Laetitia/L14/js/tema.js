@@ -49,26 +49,28 @@ function SchimbaBackground3() {
 //Laborator 13 punctul 3 a//
 
 function CitesteDataCurenta() {
-    var date = new Date();
-    var seconds = date.getSeconds();
+    var date = new Date(); //initializare data de la calculator
+    var seconds = date.getSeconds(); //extrage secundele din date
     var index1 = 0; // numar de repetari background1
     var index2 = 0; // numar de repetari background2
 
-    if (seconds % 2 == 0) {
-        alert("Data este: " + date);
+    alert("Data este: " + date);
+
+    if (seconds % 2 == 0) {  //par
         document.getElementById('schimbaBackground').classList.add('background1');
         document.getElementById('schimbaBackground').classList.remove('background2');
         document.getElementById('schimbaBackground').classList.remove('background3');
         index1++;
-    } else {
-        alert("Data este: " + date);
+    } else {   //impar
         document.getElementById('schimbaBackground').classList.add('background2');
         document.getElementById('schimbaBackground').classList.remove('background1');
         document.getElementById('schimbaBackground').classList.remove('background3');
         index2++;
     }
 
-    if (index1 < index2) {
+    if (index1 == index2) {
+        alert("Numarul de repetari este egal!");
+    } else if (index1 < index2) {
         alert("Clasa 'background2' are " + index2 + " repetari");
     } else {
         alert("Clasa 'background1' are " + index1 + " repetari");
