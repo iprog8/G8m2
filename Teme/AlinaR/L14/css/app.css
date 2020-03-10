@@ -1,0 +1,32 @@
+.fundal{
+    background-color: lightcyan;
+    border-style: solid;
+}
+#score{
+  border-style: solid;
+  font-weight: bold;
+  width: 500px;
+  height: 20px;
+}
+#buton{
+    width: 200px;
+    height: 40px;
+    font-weight: bold;
+}
+.fail{
+background-color: red;
+text-align: center;
+color: seashell;
+border-color: white;
+}
+.okish{
+background-color: yellow;
+text-align: center;
+border-color: white;
+}
+.success{
+background-color: green;
+color: seashell;
+text-align: center;
+border-color: white;
+}
