@@ -9,10 +9,11 @@
 </head>
 
 <body>
+    <div class="chestionar">
     <h1>
         Chestionar
     </h1>
-    <form action="/action_page.php">
+    <form name="chestionar" onsubmit="return Onsubmit()">
         <div>
             <p><b>1.Codul Rutier prevede că în cazul depăşirii vitezei legale cu mai mult de ____ de km/h, permisul de conducere se suspendă pentru 90 de zile.</b></p>
                 <input type="radio" name="q1" value="0">
@@ -71,13 +72,13 @@
                 <label for="q5">Da</label><br>
                 <input type="radio" name="q5" value="1">
                 <label for="q5">Nu</label><br>
-
         </div>
             <br><br>
-        <div>
+
             <input type="submit" value="Submit">
-        </div>
+            <p id="rezultat"></p>
     </form>
+    </div>
  
 </body>
 </html>
