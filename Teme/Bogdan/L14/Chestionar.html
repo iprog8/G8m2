@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chestionar</title>
+    <link rel="stylesheet" href="css/app.css">
+    <script src="js/app.js"></script>
+</head>
+
+<body>
+    <div class="chestionar">
+    <h1>
+        Chestionar
+    </h1>
+    <img src="images/police.jpg">
+    <br><br><br>
+    <form name="chestionar" onsubmit="return Onsubmit()">
+        <div>
+            <p><b>1.Codul Rutier prevede că în cazul depăşirii vitezei legale cu mai mult de ____ de km/h, permisul de conducere se suspendă pentru 90 de zile.</b></p>
+                <input type="radio" name="q1" value="0">
+                <label for="q1">40</label><br>
+                <input type="radio" name="q1" value="1">
+                <label for="q1">50</label><br>
+                <input type="radio" name="q1" value="0">
+                <label for="q1">60</label><br>
+                <input type="radio" name="q1" value="0">
+                <label for="q1">70</label><br><br>
+        </div>
+
+        <div>
+            <p><b>2.Împotriva  procesului-verbal de constatare a contravenţiei şi de aplicare a sancţiunii se  poate face plângere
+                    în termen de ___ zile calendaristice de la data înmânării sau comunicării acestuia.</b></p>
+                <input type="radio" name="q2" value="0">
+                <label for="q2">5</label><br>
+                <input type="radio" name="q2" value="0">
+                <label for="q2">7</label><br>
+                <input type="radio" name="q2" value="0">
+                <label for="q2">10</label><br>
+                <input type="radio" name="q2" value="1">
+                <label for="q2">15</label><br><br>
+        </div>
+
+        <div>
+            <p><b>3.Care sunt obligaţiile poliţistului rutier faţă de şoferul oprit?</b></p>
+                <input type="radio" name="q3" value="0">
+                <label for="q3">Să informeze contravenientul cu privire la cadrul legal în baza căruia acţionează într-un anumit post sau itinerar de patrulare.</label><br>
+                <input type="radio" name="q3" value="0">
+                <label for="q3">Să se legitimeze în faţa şoferului şi să specifice motivul opririi.</label><br>
+                <input type="radio" name="q3" value="0">
+                <label for="q3">La cerere, să prezinte: ordinul de serviciu, legitimaţia care atestă dreptul de a lucra pe maşină echipată cu radar,
+                    copie după certificatul metrologic al aparatului radar cu modelul şi seria aparatului, <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsplegitimaţia care atestă 
+                    faptul că are dreptul de a conduce maşina Ministerului Afacerilor de Interne.</label><br>
+                <input type="radio" name="q3" value="1">
+                <label for="q3">Nicio variantă de mai sus.</label><br><br>
+        </div>
+
+        <div>
+            <p><b>4.Conform legislației din Romania, atunci când şoferii sunt prinşi cu o îmbibaţie de alcool de peste ___ g/l alcool pur în aerul expirat, 
+                fapta constituie infracţiune şi se pedepseşte cu închisoare<br> de la 1 la 5 ani sau cu amendă penală.</b></p>
+                <input type="radio" name="q4" value="0">
+                <label for="q4">0.30</label><br>
+                <input type="radio" name="q4" value="1">
+                <label for="q4">0.40</label><br>
+                <input type="radio" name="q4" value="0">
+                <label for="q4">0.45</label><br>
+                <input type="radio" name="q4" value="0">
+                <label for="q4">0.50</label><br><br>
+        </div>
+
+        <div>
+            <p><b>5.Semnarea procesului-verbal constituie o recunoaștere a faptei contravenționale?</b></p>
+                <input type="radio" name="q5" value="0">
+                <label for="q5">Da</label><br>
+                <input type="radio" name="q5" value="1">
+                <label for="q5">Nu</label><br>
+        </div>
+            <br><br>
+
+            <input type="submit" value="Submit">
+            <p id="rezultat"></p>
+    </form>
+    </div>
+ 
+</body>
+</html>

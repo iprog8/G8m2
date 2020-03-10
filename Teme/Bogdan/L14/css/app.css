@@ -1,0 +1,20 @@
+h1 {
+    background-color: rgb(149, 218, 22);
+    text-align: center;
+    color: rgb(22, 148, 49);
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.chestionar {
+    border-style: solid;
+    margin: 100px;
+    border-radius: 10px;
+    padding-left: 10px;
+    background-color: honeydew;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: green;
+}

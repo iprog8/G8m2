@@ -1,0 +1,19 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.title {
+    margin-bottom: 50px;
+    text-align: center;
+}
+.hidden {
+    visibility: hidden;
+}
+.visible {
+    visibility: visible;
+}
+.correct-answer {
+    background-color: green;
+}
+.incorrect-answer {
+    background-color: red;
+}

@@ -1,9 +1,9 @@
-function Inverzeste() {
+function ColoreazaAlbastru() {
   document.getElementById("cos-cumparaturi").classList.add("green-text");
   document.getElementById("cos-cumparaturi").classList.remove("red-text");
 }
 
-function Inroseste() {
+function ColoreazaPortocaliu() {
   document.getElementById("cos-cumparaturi").classList.add("red-text");
   document.getElementById("cos-cumparaturi").classList.remove("green-text");
 }

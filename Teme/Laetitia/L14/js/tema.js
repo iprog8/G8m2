@@ -29,15 +29,23 @@ function Suma2() {
 // Laborator 13 punctul 2//
 
 function SchimbaBackground1() {
-    document.getElementById('schimbaBackground').classList.add('background1');
-    document.getElementById('schimbaBackground').classList.remove('background2');
-    document.getElementById('schimbaBackground').classList.remove('background3');
+    var element = document.getElementById('schimbaBackground');
+    if (element == null) {
+        return;
+    }
+    element.classList.add('background1');
+    element.classList.remove('background2');
+    element.classList.remove('background3');
 }
 
 function SchimbaBackground2() {
-    document.getElementById('schimbaBackground').classList.add('background2');
-    document.getElementById('schimbaBackground').classList.remove('background1');
-    document.getElementById('schimbaBackground').classList.remove('background3');
+    var element = document.getElementById('schimbaBackground');
+    if (element == null) {
+        return;
+    }
+    element.classList.add('background2');
+    element.classList.remove('background1');
+    element.classList.remove('background3');
 }
 
 function SchimbaBackground3() {
