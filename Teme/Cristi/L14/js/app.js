@@ -20,8 +20,6 @@ function onSubmit(){
         }
     }
 
-    var result = document.getElementById("results")
-    
     document.getElementById("result").innerHTML = "Scorul tau este " + score + " puncte din "+ numOfQuestions + " puncte posibile";
     return false;
 }
