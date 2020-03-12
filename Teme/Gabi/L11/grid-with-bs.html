@@ -7,64 +7,85 @@
     <title>Previous site with bootstrap</title>
     <link href="css/css-bs.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.css">
+    <script src="js/app.js"></script>
 </head>
 
 <body>
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-12 col-md-12">Logo/site name<br><br><br><br></div>
+        <div class="row color-base">
+            <div class="col-lg-12 col-md-12 title">Logo/site name<br>
+                <input type="button" value="schimba culoare text " onclick="color()"><br>
+                <input type="button" value="afiseaza clasa div urilor" onclick="divclass()"><br><br></div>
         </div>
-        <div class="row">
-            <div class="col-lg col-md">empty space</div>
-            <div class="col-lg-6 col-md-8">meniu<br>
-                <div class="row">
+        <div class="row color-base">
+            <div class="col-lg col-md">Clasele div-urilor:
+                <p id="divs"></p>
+            </div>
+            <div class="col-lg-6 col-md-8 meniu">meniu<br>
+                <div class="row color-base">
                     <div class="col-lg col-md">
-                        <div class="row">
-                            <div class="col-lg col-md">title<br><br><br></div>
+                        <div class="row color-base">
+                            <div class="col-lg col-md title ">title<br><br><br></div>
                             <div class="w-100"></div>
-                            <div class="col-lg col-md">content<br><br><br><br><br><br><br><br><br><br><br><br><br></div>
+                            <div class="col-lg col-md content">
+                                content<br><br><br><br><br><br><br><br><br><br><br><br><br></div>
                         </div>
                     </div>
                     <div class="col-lg col-md">
-                        <div class="row">
-                            <div class="col-lg col-md">title<br><br><br></div>
+                        <div class="row color-base">
+                            <div class="col-lg col-md title">title<br><br><br></div>
                             <div class="w-100"></div>
-                            <div class="col-lg col-md">content<br><br><br><br><br><br><br><br><br><br><br><br><br></div>
-                        </div>
-                    </div>
-                    <div class="w-100"></div>
-                    <div class="col-lg col-md">
-                        <div class="row">
-                            <div class="col-lg col-md">title<br><br><br></div>
-                            <div class="w-100"></div>
-                            <div class="col-lg col-md">content<br><br><br><br><br><br><br><br><br><br><br><br><br></div>
-                        </div>
-                    </div>
-                    <div class="col-lg col-md">
-                        <div class="row">
-                            <div class="col-lg col-md">title<br><br><br></div>
-                            <div class="w-100"></div>
-                            <div class="col-lg col-md">content<br><br><br><br><br><br><br><br><br><br><br><br><br></div>
+                            <div class="col-lg col-md content">
+                                content<br><br><br><br><br><br><br><br><br><br><br><br><br></div>
                         </div>
                     </div>
                     <div class="w-100"></div>
                     <div class="col-lg col-md">
-                        <div class="row">
-                            <div class="col-lg col-md">title<br><br><br></div>
+                        <div class="row color-base">
+                            <div class="col-lg col-md title">title<br><br><br></div>
                             <div class="w-100"></div>
-                            <div class="col-lg col-md">content<br><br><br><br><br><br><br><br><br><br><br><br><br></div>
+                            <div class="col-lg col-md content">
+                                content<br><br><br><br><br><br><br><br><br><br><br><br><br></div>
                         </div>
                     </div>
                     <div class="col-lg col-md">
-                        <div class="row">
-                            <div class="col-lg col-md">title<br><br><br></div>
+                        <div class="row color-base">
+                            <div class="col-lg col-md title">title<br><br><br></div>
                             <div class="w-100"></div>
-                            <div class="col-lg col-md">content<br><br><br><br><br><br><br><br><br><br><br><br><br></div>
+                            <div class="col-lg col-md content">
+                                content<br><br><br><br><br><br><br><br><br><br><br><br><br></div>
+                        </div>
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="col-lg col-md">
+                        <div class="row color-base">
+                            <div class="col-lg col-md title">title<br><br><br></div>
+                            <div class="w-100"></div>
+                            <div class="col-lg col-md content">
+                                content<br><br><br><br><br><br><br><br><br><br><br><br><br></div>
+                        </div>
+                    </div>
+                    <div class="col-lg col-md">
+                        <div class="row color-base">
+                            <div class="col-lg col-md title">title<br><br><br></div>
+                            <div class="w-100"></div>
+                            <div class="col-lg col-md content">
+                                content<br><br><br><br><br><br><br><br><br><br><br><br><br></div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg col-md">empty space</div>
+            <div class="col-lg col-md">Se da multimea:
+                <div>
+                    A={4, 15, 18, 20, 23, 25, 27, 35, 40, 55, 77, 100}<br>
+                    <input type="button" value="numere pare:" onclick="numerepare()"><br>
+                    <p id="nrpare"></p>
+                    <input type="button" value="numere multiple de 5:" onclick="numerediv5()"><br>
+                    <p id="nrdiv5"></p>
+                    <input type="button" value="suma numere mai mici de 50" onclick="sumanr50()"><br>
+                    <p id="sumanr50"></p>
+                </div>
+            </div>
         </div>
     </div>
 </body>
