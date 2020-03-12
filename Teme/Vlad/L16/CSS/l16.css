@@ -1,0 +1,16 @@
+p { 
+    color: green;
+    font-size: 25px;
+}
+.red-text {
+    color: red;
+    font-size: 25px;
+}
+.blue-text { 
+    color:blue;
+    font-size: 25px;
+}
+.purple-text {
+    color: purple;
+    font-size: 25px;
+}
