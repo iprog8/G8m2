@@ -5,3 +5,19 @@
     border: 1px solid red;
     border-collapse: collapse;
 }
+.color-base {
+    background-color: grey;
+    color: red;
+}
+.title {    
+    background-color: hotpink;
+    color: white;
+}
+.meniu {
+    background-color: rgb(248, 171, 171);
+    color: black;
+}
+.content {
+    background-color: lavenderblush;
+    color: blue;
+}
