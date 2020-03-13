@@ -1,0 +1,148 @@
+
+body{
+    background-color: mintcream;
+}
+h1{
+    color: #292f36;
+    text-align: center;
+    text-shadow: 2px 2px 2px #ff6b6b;
+    font-style: italic;
+    margin-bottom: 50px;}
+.meniu-principal-link{
+    text-decoration: none;
+   color: mintcream;
+   font-weight: bold;
+    font-size: 15px;
+    font-weight: bold; 
+}
+.meniu-principal-link:hover{background-color: mintcream;
+        color:#ff6b6b}
+.meniu-principal-ul{
+background-color:#292f36;
+text-align: center;
+padding-top: 10px;
+padding-bottom: 10px;
+border-color: #ff6b6b;
+border-top-width:2px;
+border-top-style:solid;
+border-bottom-width:2px;
+border-bottom-style:solid;
+position: sticky;
+top:0;
+}
+.meniu-principal-li {
+    list-style-type: none;
+display: inline;
+padding-left: 10%;
+padding-right: 10%;
+}
+table{background-color: white;
+padding: 10px;}
+caption{font-weight: bold;
+    font-style:italic ;
+font-size: 20px;}
+.sali{background-color: #292f36;
+color: mintcream;}
+td{
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom-width: 1px;
+    border-bottom-style: dashed;
+}
+.b-suspension{background-color: #ff6b6b;}
+.yoga{background-color: #4ecdc4;}
+.powerandtone{background-color: #ffe66d;}
+.abt{background-color: mintcream;}
+.zumba{background-color:#ef626c;}
+.i-cycling{background-color: #d2d4c8;}
+.step{background-color: #f9edcc;}
+.k-jumps{background-color: #d3ef8d;}
+    
+.powerandtone-descriere{background-color: #ffe66d;
+    width: 300px;
+    height: 300px;
+    float: right;
+    border-width: 5px;
+    border-style: double;
+    border-radius: 20px;
+    text-align: justify;
+    text-indent: 10px;
+    color:#292f36;
+    margin-bottom: 20px;
+}
+.b-suspension-descriere{background-color:#ff6b6b;
+    width: 300px;
+    height: 300px;
+    float: right;
+    border-width: 5px;
+    border-style: double;
+    border-radius: 20px;
+    text-align: justify;
+    text-indent: 10px;
+    color:#292f36;
+    margin-bottom: 20px;
+}
+.abt-descriere{
+    background-color:mintcream;
+    width: 300px;
+    height: 300px;
+    float: right;
+    border-width: 5px;
+    border-style: double;
+    border-radius: 20px;
+    text-align: justify;
+    text-indent: 10px;
+    color:#292f36;
+    margin-bottom: 20px;
+}
+.yoga-descriere{background-color: #4ecdc4;
+    width: 300px;
+    height: 300px;
+    float: right;
+    border-width: 5px;
+    border-style: double;
+    border-radius: 20px;
+    text-align: justify;
+    text-indent: 10px;
+    color:#292f36;
+    margin-bottom: 20px;
+}
+.workout{
+    background-color: mintcream;
+    background-image: url("../imagini/workout.jpg");
+    background-repeat: no-repeat;
+    width: 200px ;
+    height: 260px;
+    padding-top: 170px;
+    }
+    
+        
+p{margin-left: 5px;
+margin-right: 5px;}
+#products{display: inline-block;
+    margin-left: 10px;}
+li{margin-left: 10px;}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 50px;
+}
+pre{margin-left: 10px; }
+   
+pre:hover{background-color: aqua;}
+.nume-instructori{
+  text-decoration: underline;
+  text-indent: 10px;  
+}
+.pwrtone-description{
+    color:red;
+}
+.b-suspension-description{
+    color:blue;
+}
+.culoare-background-divs{
+    background-color: skyblue;
+}
