@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Lista Cumparaturi</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.css">
+    <link rel="stylesheet" href="css/app.css">
     <script src="js/app.js"></script>
 </head>
 
@@ -27,7 +28,7 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-12">
-                        <input type="text" name="produs" id="produs">
+                        <input type="text" name="produs" id="produs" onkeypress="IntroduProdus(this, event)">
                         <ul id="listaCumparaturi">
 
                         </ul>
