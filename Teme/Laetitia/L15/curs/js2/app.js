@@ -1,6 +1,7 @@
 function DailyMessage() {
     var date = new Date();
     var dayOfWeek = date.getDay();
+    var message = 'Spor la munca!'
     switch (dayOfWeek) {
         case 1:
         case 2:
