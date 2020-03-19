@@ -24,7 +24,7 @@ function switch_on_off() {
  /* varianta care NU merge - ramane Aprins */
 function switch_() {
     var bulb = document.getElementById('bulb2');
-    if(bulb.src == "http://127.0.0.1:5500/Teme/Vlad/L13/Images/bulbon.png") { /* '.src' are nevoie de toata calea" */
+    if(bulb.src == "http://127.0.0.1:5500/Teme/Vlad/L13/Images/bulbon.png") { /* '.src' arenevoie de toata calea" */
         bulb.src = "Images/bulboff.png";
     }
     else {
