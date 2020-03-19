@@ -1,0 +1,20 @@
+#cos-cumparaturi {
+    color: red;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+p, #suma {
+    display: inline-block;
+}
+.red-bkg {
+    background-color: red;
+}
+.yellow-bkg {
+    background-color: yellow;
+}
+.blue-bkg {
+    background-color:blue;
+}
+.white {
+    background-color: white;
+}
