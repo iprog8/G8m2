@@ -66,10 +66,18 @@ function valideazaLuna(cifreleLunii) {
         return false;
     } return true;
 }
-
-function valideazaZiua(cifreleZilei) { 
+function valideazaZiua(cifreleZilei,cifreleLunii,cifreleAnului) { 
     if((cifreleZilei < '01') || (cifreleZilei > '31')) {
         return false;
+    }
+    else if(parseInt(cifreleLunii) == 02 && (parseInt(cifreleAnului) % 4 != 0)) {
+        if(parseInt(cifreleZilei >28)) {
+            return false;
+        }
+    } else if (parseInt(cifreleLunii) == 02 && (parseInt(cifreleAnului) % 4 == 0)) {
+        if (parseInt(cifreleZilei) > 29) {
+            return false;
+        }
     } return true;
 }
 
