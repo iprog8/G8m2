@@ -24,7 +24,7 @@ function divclass() {
     }
     show_divs.innerHTML = text;
 }
-function numerepare() {
+function numerePare() {
     let listNum = [4, 15, 18, 20, 23, 25, 27, 35, 40, 55, 77, 100];
     let text = "";
     for (let i = 0; i < listNum.length; i++) {
