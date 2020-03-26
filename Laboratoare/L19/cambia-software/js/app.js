@@ -18,9 +18,14 @@ var appHeader = new Vue({
         endPromotion: function () {
             debugger
             var date = new Date()
+            //lunile sunt de la 0 la 11
             if (date.getFullYear() > 2020 || date.getMonth() > 1) {
                 this.screenshotsVisibility = false
             }
+        },
+        //aici trebuia apelata end promotion
+        created: function () {
+            this.endPromotion()
         }
     }
 });
