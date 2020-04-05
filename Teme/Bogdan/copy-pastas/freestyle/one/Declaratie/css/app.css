@@ -1,0 +1,43 @@
+.container {
+    font-family: TimesNewRoman, Times New Roman, Times, Baskerville, Georgia, serif; 
+    font-size: 24px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 26.4px;
+}
+
+.title{
+    float: left;
+    text-align: center;
+}
+
+.guvern {
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+
+.date-de-completat {
+    float: left;
+}
+
+form input{
+    font-size: 2em;
+    text-align: left;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+  }
+
+  .paragraph {
+    font-weight: normal;
+    font-size: 26px;
+  }
+
+  .Motivul-deplasării {
+    font-weight: normal;
+    font-size: 31px;
+    line-height: normal;
+  }

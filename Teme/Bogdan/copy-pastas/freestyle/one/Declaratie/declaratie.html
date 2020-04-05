@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.css">
+    <script src="js/app.js"></script>
+    <title>Declaratie pe proprie raspundere</title>
+</head>
+<body>
+    <div class="container col-10 col-t-5">
+        <div class="header col-10 col-t-5">
+            <img class="guvern" src="images/guvern.jpg" alt="guvernul romaniei">
+        </div>
+
+        <div class="title col-10 col-t-5">
+            <h1><b>DECLARAȚIE PE PROPRIE RĂSPUNDERE</b></h1>
+            <br><br>
+        </div>
+            
+        <div class="date-de-completat col-10 col-t-5">
+            <form action="/action_page.php">
+                <label for="flname"><h2><b>Nume, prenume:&nbsp;&nbsp;&nbsp;&nbsp;</b></h2></label>
+                <input type="text" id="Nume" name="Nume" size="20.5">
+                <input type="text" id="prenume" name="prenume" size="21">
+                <br>
+                <label for="dateofbirth"><h2><b>Data nașterii:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></h2></label>
+                <input type="number" id="ziua" name="ziua" size="2" min="1" max="31"
+                 oninput="javascript: if (ziua.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength = "2">
+                <input type="number" id="luna" name="luna" size="2" min="1" max="12"
+                oninput="javascript: if (luna.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength = "2">
+                <input type="number" id="anul" name="anul" size="5" min="1870" max="2004"
+                oninput="javascript: if (anul.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength = "4">
+                <br>
+                <label for="adresa"><h2><b>Adresa locuinței:&nbsp;&nbsp;&nbsp;</b></h2></label>
+                <input type="text" id="Nume" name="Nume" size="47">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" id="Nume" name="Nume" size="47">
+                <p class="paragraph">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Se va completa adresa locuinței în care persoana locuiește în fapt, indiferent dacă este identică
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    sau nu cu cea menționată în actul de identitate.</p>
+                <label for="adresa"><h2><b>Locul/locurile deplasării</b></h2></label><br>
+                <input type="text" id="adresa" name="adresa" size="61"><br>
+                <p class="paragraph">Se vor menționa locurile în care persoana se deplasează, în ordinea în care aceasta intenționează să-și desfășoare traseul.</p>
+                <br>
+                <h2><b>Motivul deplasării:</b></h2>
+                    <div class="Motivul-deplasării">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" id="Motivul-deplasării" name="Motivul-deplasării" value="interes-profesional">
+                        1.interes profesional, inclusiv între locuință/gospodărie și locul/locurile de desfășurare a activității profesionale și înapoi <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" id="Motivul-deplasării" name="Motivul-deplasării" value="asigurarea-de-bunuri">
+                        2.asigurarea de bunuri care acoperă necesitățile de bază ale persoanelor și animalelor de companie/domestice <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" id="Motivul-deplasării" name="Motivul-deplasării" value="asistenta-medicala">
+                        3.asistență medicală care nu poate fi amânată și nici realizată de la distanță <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" id="Motivul-deplasării" name="Motivul-deplasării" value="motive-justificate">
+                        4.motive justificate, precum îngrijirea/ însoțirea unui minor/copilului, asistența persoanelor vârstnice, bolnave sau cu dizabilități ori deces al unui membru de familie <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" id="Motivul-deplasării" name="Motivul-deplasării" value="activitate-fizica">
+                        5.activitate fizică individuală (cu excluderea oricăror activități sportive de echipă/ colective) sau pentru nevoile animalelor de companie/domestice, în apropierea locuinței <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" id="Motivul-deplasării" name="Motivul-deplasării" value="activitati-agricole">
+                        6.realizarea de activități agricole<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---------------------------------------------------------------------------------------------------------------
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" id="Motivul-deplasării" name="Motivul-deplasării" value="donare-sange">
+                        7.donarea de sânge, la centrele de transfuzie sanguină <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" id="Motivul-deplasării" name="Motivul-deplasării" value="voluntariat">
+                        8.scopuri umanitare sau de voluntariat <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" id="Motivul-deplasării" name="Motivul-deplasării" value="comercializare">
+                        9.comercializarea de produse agroalimentare (în cazul producătorilor agricoli) <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" id="Motivul-deplasării" name="Motivul-deplasării" value="activitate-profesionala">
+                        10. asigurarea de bunuri necesare desfășurării activității profesionale <br>
+                    </div>
+              </form> <br>
+            <p class="paragraph">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Se va bifa doar motivul/motivele deplasării dintre cele prevăzute în listă, nefiind permise deplasări realizate invocând &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;alte motive decât cele prevăzute în Ordonanța Militară nr. 3/2020.<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Subsemnatul cunosc prevederile art. 326 din Codul Penal cu privire la falsul în declarații și art. 352 din Codul Penal &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cu privire la zădărnicirea combaterii bolilor.</p><br><br>
+                <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Data declarației..................................&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Semnătura  ......................................</h2><br><br>
+                <h3><b>Persoanele care au împlinit vârsta de 65 de ani completează doar pentru motivele prevăzute în câmpurile 1-6, deplasarea fiind permisă zilnic doar în intervalul orar 11.00 – 13.00. </b></h3>
+        </div>
+
+    </div>
+    
+</body>
+</html>
