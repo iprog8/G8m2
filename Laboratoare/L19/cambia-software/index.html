@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>eStartup Bootstrap Template</title>
+  <title>Cambia Software - Aplicatiile noastre iti schimba business-ul in bine</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -47,13 +47,14 @@
       <div id="logo" class="pull-left">
         <h1><a href="#body" class="scrollto"><span>{{name1}}</span> {{name2}}</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="#body"><img src="img/logo.png" alt="" title="" /></a>-->
+        <a href="#body"><img src="img/Cambia software logo transparent.png" alt="" title="" width="150px" /></a>
       </div>
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class="menu-active"><a href="#landingArea">{{home}}</a></li>
-          <li><a href="#about-us">{{about}}</a></li>
+          <li><a href="#get-started">{{howWorks}}</a></li>
+          <li><a href="#mobile-ready">{{mobileReady}}</a></li>
           <li><a href="#features">{{features}}</a></li>
           <li v-if="screenshotsVisibility"><a href="#screenshots">{{screenshots}}</a></li>
           <li><a href="#team">{{team}}</a></li>
@@ -85,8 +86,8 @@
     <div class="container">
       <div class="section-title text-center">
 
-        <h2>simple systeme fordiscount </h2>
-        <p class="separator">Integer cursus bibendum augue ac cursus .</p>
+        <h2>{{title}}</h2>
+        <p class="separator">{{subtitle}}</p>
 
       </div>
     </div>
@@ -94,35 +95,16 @@
     <div class="container">
       <div class="row">
 
-        <div class="col-md-6 col-lg-4">
+        <div class="col-md-6 col-lg-3" v-for="step in steps">
           <div class="feature-block">
 
-            <img src="img/svg/cloud.svg" alt="img" class="img-fluid">
-            <h4>introducing whatsapp</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-            <a href="#">read more</a>
-
-          </div>
-        </div>
-
-        <div class="col-md-6 col-lg-4">
-          <div class="feature-block">
-
-            <img src="img/svg/planet.svg" alt="img" class="img-fluid">
-            <h4>user friendly interface</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-            <a href="#">read more</a>
-
-          </div>
-        </div>
-
-        <div class="col-md-6 col-lg-4">
-          <div class="feature-block">
-
-            <img src="img/svg/asteroid.svg" alt="img" class="img-fluid">
-            <h4>build the app everyone love</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-            <a href="#">read more</a>
+            <img :src="step.image" alt="img" class="img-fluid">
+            <h4>{{step.title}}</h4>
+            <p>
+              {{step.text}}
+              <span v-if="step.addRow > 0">&nbsp;<br>&nbsp;</span>
+            </p>
+            <a :href="step.readMoreLink">{{step.readMore}}</a>
 
           </div>
         </div>
@@ -133,9 +115,9 @@
   </section>
 
   <!--==========================
-    About Us Section
+    Mobile ready Section
   ============================-->
-  <section id="about-us" class="about-us padd-section wow fadeInUp">
+  <section id="mobile-ready" class="about-us padd-section wow fadeInUp">
     <div class="container">
       <div class="row justify-content-center">
 
@@ -146,18 +128,9 @@
         <div class="col-md-7 col-lg-5">
           <div class="about-content">
 
-            <h2><span>eStartup</span>UI Design Mobile </h2>
-            <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-              ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+            <h2>{{title1}} <span>{{title2}}</span> {{title3}}</h2>
+            <p>{{description}}
             </p>
-
-            <ul class="list-unstyled">
-              <li><i class="fa fa-angle-right"></i>Creative Design</li>
-              <li><i class="fa fa-angle-right"></i>Retina Ready</li>
-              <li><i class="fa fa-angle-right"></i>Easy to Use</li>
-              <li><i class="fa fa-angle-right"></i>Unlimited Features</li>
-              <li><i class="fa fa-angle-right"></i>Unlimited Features</li>
-            </ul>
 
           </div>
         </div>

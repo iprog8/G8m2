@@ -622,17 +622,17 @@ body.mobile-nav-active #mobile-nav-toggle i {
   color: #71c55d;
 }
 
-/* About Us Section
+/* Mobile Ready Section
 --------------------------------*/
-#about-us img {
+#mobile-ready img {
   max-width: 100%;
 }
 
-#about-us .about-content {
+#mobile-ready .about-content {
   padding-top: 60px;
 }
 
-#about-us .about-content h2 {
+#mobile-ready .about-content h2 {
   color: #252525;
   font-family: "roboto";
   font-size: 39px;
@@ -642,17 +642,17 @@ body.mobile-nav-active #mobile-nav-toggle i {
   text-transform: capitalize;
 }
 
-#about-us .about-content span {
+#mobile-ready .about-content span {
   font-weight: 700;
   padding-right: 10px;
   text-transform: uppercase;
 }
 
-#about-us .about-content ul li {
+#mobile-ready .about-content ul li {
   line-height: 36px;
 }
 
-#about-us .about-content ul li .fa {
+#mobile-ready .about-content ul li .fa {
   padding-right: 20px;
 }
 
