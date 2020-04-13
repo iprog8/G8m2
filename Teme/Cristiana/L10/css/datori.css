@@ -1,0 +1,70 @@
+.button{
+    background-color: #4caf50;
+    border: none;
+    color: white ;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn-cancel{
+    background-color: red;
+}
+.div-static{
+    position: static;
+    border: 5px solid black;
+}
+.div-relativ{
+    position: relative;
+    border: 5px solid black;
+    left: 50px;
+    top: 50px;
+    width: 200px;
+    height: 300px;
+}
+.div-relativ2{
+    position: relative;
+    border: 5px solid black;
+    left: 50px;
+    top: 50px;
+    width: 200px;
+    height: 300px;
+}
+.div-fix{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 150px;
+    border: 1px solid yellow;
+}
+.div-absolu{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    width: 150px;
+    height: 150px;
+    Border: 1px solid red;
+    background-color: lightblue;
+}
+.zindex{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    width: 100px;
+    height: 100px;
+    Border: 1px solid red;
+    background-color: lightsalmon;
+    z-index: 1;
+
+}
+.box{
+    width: 150px;
+    height: 150px;
+    padding: 50px;
+    border: 10px solid red;
+    margin: 10px;
+    
+}

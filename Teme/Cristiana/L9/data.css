@@ -1,0 +1,48 @@
+.floating-div{
+    display: inline-block;
+    border-radius:21px solid red;
+}
+.margini-div{
+    border: 5px solid greenyellow;
+    display: inline-block;
+    border-radius:50px ;
+    margin: 15px 25px 35px 45px;
+}
+.padding-div{
+    border: 10px solid lavender;
+    padding: 25px 25px 25px 25px;
+}
+.div-patratos{
+    width: 300px;
+    height: 300px;
+
+}
+.div-patratos-max{
+    border-radius:50% solid red;
+    max-width: 500px;
+    max-height: 500px;
+    min-width: 100px;
+    min-height: 100px;
+}
+.auto{
+    margin: auto;
+    width: 800px;
+}
+.border-selectiv{
+    display: inline;
+    border: 15px solid blueviolet;
+    border-style: double;
+    border-radius: 50%;
+    min-width: 100px;
+    min-height: 100px;
+}
+.poza{
+    border: 15px solid #000000;
+    height: 500px;
+    background-image: url("poze.rs/poza\ ceainic.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    max-width: 500px;
+    max-height: 500px;
+}
