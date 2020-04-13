@@ -1,0 +1,42 @@
+body {
+    background-color: #ffcc66;
+  }
+  table,th,td{
+    border: 1px solid black;
+}
+
+table{
+    border-collapse: collapse;
+    width:100%;
+}
+
+th{
+    height: 50px;
+    text-align: middle;
+    vertical-align: middle;
+}
+
+tr:nth-child(odd){
+    background-color: #2724cf;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+tr:hover{
+    background-color: lightskyblue;
+    color:darkred;
+}
+.caracatita{
+  float: left;
+  width: 200px;
+  height: 200px;
+  border: 2px solid;
+}
+.caracatita-2{
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border: 2px solid darksalmon;
+}
