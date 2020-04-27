@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pagina Vue JS</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.css">
+
+</head>
+
+<body>
+    <div class="container" id="app">
+        <div class="row">
+            <div class="col-sm-9">
+            </div>
+            <div class="col-sm-3">
+                <span v-if="isLogged" v-on:click="logOut">Hi {{loggedUser}}!</span>
+                <input v-if="!isLogged" v-model="loggedUser"><br>
+                <span v-if="!isLogged" v-on:click="logIn">Click pentru a te loga!</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>{{titluArticol}}</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                Articol scris de <a :href="urlAutor">{{autor}}</a>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-sm-12">
+                <span :title="titleIntro">
+                    {{intro}}
+                </span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <h3>{{primulSubtitlu}}</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <ul>
+                    <li v-for="skill in skilluri">
+                        {{ skill.text }}
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
